@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<UnitTypes>
+  <!--Time Lord Race-->
+  <UnitType name="K-9">
+    <Visual color="#FFFFFF" texture="K-9" width="1.0" height="1.0" selectionTexture="SelectionCircle" />
+    <Cost time="10" fishFingers="50" custard="0" timeEnergy="0" supply="1" />
+    <Health max="20" />
+    <Movement speed="2.8" canMoveOn="grass,shallowWater" vision="5.0"/>
+    <Attack damage="10" speed="1.5" range="1.0"/>
+    <BuildingsConstructed>
+      <Building name="Tardis" hotkey="T" />
+    </BuildingsConstructed>
+    <Peon/>
+  </UnitType>
+
+  <UnitType name="9thDoctor">
+    <Visual color="#FFFFFF" texture="9thDoctor" width="1.0" height="1.0" selectionTexture="SelectionCircle" />
+    <Cost time="10" fishFingers="200" custard="100" timeEnergy="0" supply="1" />
+    <Health max="20" />
+    <Movement speed="7.0" canMoveOn="grass,shallowWater" vision="7.0"/>
+    <Attack damage="40" speed="1.5" range="4.0"/>
+  </UnitType>
+
+  <UnitType name="10thDoctor">
+    <Visual color="#FFFFFF" texture="10thDoctor" width="1.0" height="1.0" selectionTexture="SelectionCircle" />
+    <Cost time="10" fishFingers="200" custard="100" timeEnergy="0" supply="1" />
+    <Health max="20" />
+    <Movement speed="7.0" canMoveOn="grass,shallowWater" vision="7.0"/>
+    <Attack damage="40" speed="1.5" range="4.0"/>
+  </UnitType>
+
+  <UnitType name="11thDoctor">
+    <Visual color="#FFFFFF" texture="11thDoctor" width="1.0" height="1.0" selectionTexture="SelectionCircle" />
+    <Cost time="17" fishFingers="200" custard="100" timeEnergy="0" supply="1" />
+    <Health max="20" />
+    <Movement speed="7.0" canMoveOn="grass,shallowWater" vision="7.0"/>
+    <Attack damage="40" speed="1.5" range="4.0"/>
+  </UnitType>
+  
+  
+  
+  <!--Dalek Race-->  
+  <UnitType name="Cyberman">
+    <Visual color="#FFFFFF" texture="Cyberman" width="1.0" height="1.0" selectionTexture="SelectionCircle" />
+    <Cost time="10" fishFingers="50" custard="0" timeEnergy="0" supply="1" />
+    <Health max="20" />
+    <Movement speed="2.8" canMoveOn="grass,shallowWater" vision="5.0"/>
+    <Attack damage="10" speed="1.5" range="1.0"/>
+    <BuildingsConstructed>
+      <Building name="DalekSpaceship" hotkey="D" />
+      <Building name="DalekScoutship" hotkey="S" />
+      <Building name="WeepingAngelCave" hotkey="W" />
+    </BuildingsConstructed>
+    <Peon/>
+  </UnitType>
+
+  <UnitType name="WeepingAngel">
+    <Visual color="#FFFFFF" texture="WeepingAngel" width="1.0" height="1.0" selectionTexture="SelectionRectangle" />
+    <Cost time="10" fishFingers="100" custard="0" timeEnergy="0" supply="12"/>
+    <Health max="100"/>
+    <Movement speed="10.0" canMoveOn="grass,shallowWater" vision="5.0"/>
+    <Attack damage="40" speed="0.3" range="5.0"/>
+  </UnitType>
+
+  <UnitType name="WhiteDalek">
+    <Visual color="#FFFFFF" texture="White_Dalek" width="1.0" height="1.0" selectionTexture="SelectionRectangle" />
+    <Cost time="10" fishFingers="100" custard="0" timeEnergy="0" supply="12"/>
+    <Health max="100"/>
+    <Movement speed="2.5" canMoveOn="grass,shallowWater,water" vision="5.0"/>
+    <Attack damage="16" speed="1.2" range="5.0"/>
+  </UnitType>
+  
+</UnitTypes>
