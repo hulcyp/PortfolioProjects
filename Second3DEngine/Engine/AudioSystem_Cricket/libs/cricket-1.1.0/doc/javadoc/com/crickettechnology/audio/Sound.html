@@ -1,0 +1,1642 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<!--NewPage-->
+<HTML>
+<HEAD>
+<TITLE>
+Sound (Cricket Audio)
+</TITLE>
+
+
+<LINK REL ="stylesheet" TYPE="text/css" HREF="../../../stylesheet.css" TITLE="Style">
+
+<SCRIPT type="text/javascript">
+function windowTitle()
+{
+    if (location.href.indexOf('is-external=true') == -1) {
+        parent.document.title="Sound (Cricket Audio)";
+    }
+}
+</SCRIPT>
+<NOSCRIPT>
+</NOSCRIPT>
+
+</HEAD>
+
+<BODY BGCOLOR="white" onload="windowTitle();">
+<HR>
+
+
+<!-- ========= START OF TOP NAVBAR ======= -->
+<A NAME="navbar_top"><!-- --></A>
+<A HREF="#skip-navbar_top" title="Skip navigation links"></A>
+<TABLE BORDER="0" WIDTH="100%" CELLPADDING="1" CELLSPACING="0" SUMMARY="">
+<TR>
+<TD COLSPAN=2 BGCOLOR="#EEEEFF" CLASS="NavBarCell1">
+<A NAME="navbar_top_firstrow"><!-- --></A>
+<TABLE BORDER="0" CELLPADDING="0" CELLSPACING="3" SUMMARY="">
+  <TR ALIGN="center" VALIGN="top">
+  <TD BGCOLOR="#EEEEFF" CLASS="NavBarCell1">    <A HREF="../../../com/crickettechnology/audio/package-summary.html"><FONT CLASS="NavBarFont1"><B>Package</B></FONT></A>&nbsp;</TD>
+  <TD BGCOLOR="#FFFFFF" CLASS="NavBarCell1Rev"> &nbsp;<FONT CLASS="NavBarFont1Rev"><B>Class</B></FONT>&nbsp;</TD>
+  <TD BGCOLOR="#EEEEFF" CLASS="NavBarCell1">    <A HREF="package-tree.html"><FONT CLASS="NavBarFont1"><B>Tree</B></FONT></A>&nbsp;</TD>
+  <TD BGCOLOR="#EEEEFF" CLASS="NavBarCell1">    <A HREF="../../../deprecated-list.html"><FONT CLASS="NavBarFont1"><B>Deprecated</B></FONT></A>&nbsp;</TD>
+  <TD BGCOLOR="#EEEEFF" CLASS="NavBarCell1">    <A HREF="../../../index-all.html"><FONT CLASS="NavBarFont1"><B>Index</B></FONT></A>&nbsp;</TD>
+  <TD BGCOLOR="#EEEEFF" CLASS="NavBarCell1">    <A HREF="../../../help-doc.html"><FONT CLASS="NavBarFont1"><B>Help</B></FONT></A>&nbsp;</TD>
+  </TR>
+</TABLE>
+</TD>
+<TD ALIGN="right" VALIGN="top" ROWSPAN=3><EM>
+</EM>
+</TD>
+</TR>
+
+<TR>
+<TD BGCOLOR="white" CLASS="NavBarCell2"><FONT SIZE="-2">
+&nbsp;<A HREF="../../../com/crickettechnology/audio/PathType.html" title="class in com.crickettechnology.audio"><B>PREV CLASS</B></A>&nbsp;
+&nbsp;NEXT CLASS</FONT></TD>
+<TD BGCOLOR="white" CLASS="NavBarCell2"><FONT SIZE="-2">
+  <A HREF="../../../index.html?com/crickettechnology/audio/Sound.html" target="_top"><B>FRAMES</B></A>  &nbsp;
+&nbsp;<A HREF="Sound.html" target="_top"><B>NO FRAMES</B></A>  &nbsp;
+&nbsp;<SCRIPT type="text/javascript">
+  <!--
+  if(window==top) {
+    document.writeln('<A HREF="../../../allclasses-noframe.html"><B>All Classes</B></A>');
+  }
+  //-->
+</SCRIPT>
+<NOSCRIPT>
+  <A HREF="../../../allclasses-noframe.html"><B>All Classes</B></A>
+</NOSCRIPT>
+
+
+</FONT></TD>
+</TR>
+<TR>
+<TD VALIGN="top" CLASS="NavBarCell3"><FONT SIZE="-2">
+  SUMMARY:&nbsp;NESTED&nbsp;|&nbsp;<A HREF="#field_summary">FIELD</A>&nbsp;|&nbsp;CONSTR&nbsp;|&nbsp;<A HREF="#method_summary">METHOD</A></FONT></TD>
+<TD VALIGN="top" CLASS="NavBarCell3"><FONT SIZE="-2">
+DETAIL:&nbsp;<A HREF="#field_detail">FIELD</A>&nbsp;|&nbsp;CONSTR&nbsp;|&nbsp;<A HREF="#method_detail">METHOD</A></FONT></TD>
+</TR>
+</TABLE>
+<A NAME="skip-navbar_top"></A>
+<!-- ========= END OF TOP NAVBAR ========= -->
+
+<HR>
+<!-- ======== START OF CLASS DATA ======== -->
+<H2>
+<FONT SIZE="-1">
+com.crickettechnology.audio</FONT>
+<BR>
+Class Sound</H2>
+<PRE>
+java.lang.Object
+  <IMG SRC="../../../resources/inherit.gif" ALT="extended by "><B>com.crickettechnology.audio.Sound</B>
+</PRE>
+<HR>
+<DL>
+<DT><PRE>public final class <B>Sound</B><DT>extends java.lang.Object</DL>
+</PRE>
+
+<P>
+A sound (either memory-resident or streamed).
+<P>
+
+<P>
+<HR>
+
+<P>
+<!-- =========== FIELD SUMMARY =========== -->
+
+<A NAME="field_summary"><!-- --></A>
+<TABLE BORDER="1" WIDTH="100%" CELLPADDING="3" CELLSPACING="0" SUMMARY="">
+<TR BGCOLOR="#CCCCFF" CLASS="TableHeadingColor">
+<TH ALIGN="left" COLSPAN="2"><FONT SIZE="+2">
+<B>Field Summary</B></FONT></TH>
+</TR>
+<TR BGCOLOR="white" CLASS="TableRowColor">
+<TD ALIGN="right" VALIGN="top" WIDTH="1%"><FONT SIZE="-1">
+<CODE>static&nbsp;float</CODE></FONT></TD>
+<TD><CODE><B><A HREF="../../../com/crickettechnology/audio/Sound.html#SOUND_SPEED_CENTIMETERS_PER_SECOND">SOUND_SPEED_CENTIMETERS_PER_SECOND</A></B></CODE>
+
+<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The speed of sound in dry air at 20 degrees C, in centimeters per second.</TD>
+</TR>
+<TR BGCOLOR="white" CLASS="TableRowColor">
+<TD ALIGN="right" VALIGN="top" WIDTH="1%"><FONT SIZE="-1">
+<CODE>static&nbsp;float</CODE></FONT></TD>
+<TD><CODE><B><A HREF="../../../com/crickettechnology/audio/Sound.html#SOUND_SPEED_FEET_PER_SECOND">SOUND_SPEED_FEET_PER_SECOND</A></B></CODE>
+
+<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The speed of sound in dry air at 20 degrees C, in feet per second.</TD>
+</TR>
+<TR BGCOLOR="white" CLASS="TableRowColor">
+<TD ALIGN="right" VALIGN="top" WIDTH="1%"><FONT SIZE="-1">
+<CODE>static&nbsp;float</CODE></FONT></TD>
+<TD><CODE><B><A HREF="../../../com/crickettechnology/audio/Sound.html#SOUND_SPEED_INCHES_PER_SECOND">SOUND_SPEED_INCHES_PER_SECOND</A></B></CODE>
+
+<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The speed of sound in dry air at 20 degrees C, in inches per second.</TD>
+</TR>
+<TR BGCOLOR="white" CLASS="TableRowColor">
+<TD ALIGN="right" VALIGN="top" WIDTH="1%"><FONT SIZE="-1">
+<CODE>static&nbsp;float</CODE></FONT></TD>
+<TD><CODE><B><A HREF="../../../com/crickettechnology/audio/Sound.html#SOUND_SPEED_METERS_PER_SECOND">SOUND_SPEED_METERS_PER_SECOND</A></B></CODE>
+
+<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The speed of sound in dry air at 20 degrees C, in meters per second.</TD>
+</TR>
+</TABLE>
+&nbsp;
+<!-- ========== METHOD SUMMARY =========== -->
+
+<A NAME="method_summary"><!-- --></A>
+<TABLE BORDER="1" WIDTH="100%" CELLPADDING="3" CELLSPACING="0" SUMMARY="">
+<TR BGCOLOR="#CCCCFF" CLASS="TableHeadingColor">
+<TH ALIGN="left" COLSPAN="2"><FONT SIZE="+2">
+<B>Method Summary</B></FONT></TH>
+</TR>
+<TR BGCOLOR="white" CLASS="TableRowColor">
+<TD ALIGN="right" VALIGN="top" WIDTH="1%"><FONT SIZE="-1">
+<CODE>&nbsp;void</CODE></FONT></TD>
+<TD><CODE><B><A HREF="../../../com/crickettechnology/audio/Sound.html#destroy()">destroy</A></B>()</CODE>
+
+<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Destroy this object.</TD>
+</TR>
+<TR BGCOLOR="white" CLASS="TableRowColor">
+<TD ALIGN="right" VALIGN="top" WIDTH="1%"><FONT SIZE="-1">
+<CODE>static&nbsp;void</CODE></FONT></TD>
+<TD><CODE><B><A HREF="../../../com/crickettechnology/audio/Sound.html#get3dAttenuation(com.crickettechnology.audio.ObjectRef, com.crickettechnology.audio.FloatRef, com.crickettechnology.audio.FloatRef, com.crickettechnology.audio.FloatRef)">get3dAttenuation</A></B>(<A HREF="../../../com/crickettechnology/audio/ObjectRef.html" title="class in com.crickettechnology.audio">ObjectRef</A>&lt;<A HREF="../../../com/crickettechnology/audio/AttenuationMode.html" title="class in com.crickettechnology.audio">AttenuationMode</A>&gt;&nbsp;mode,
+                 <A HREF="../../../com/crickettechnology/audio/FloatRef.html" title="class in com.crickettechnology.audio">FloatRef</A>&nbsp;nearDist,
+                 <A HREF="../../../com/crickettechnology/audio/FloatRef.html" title="class in com.crickettechnology.audio">FloatRef</A>&nbsp;farDist,
+                 <A HREF="../../../com/crickettechnology/audio/FloatRef.html" title="class in com.crickettechnology.audio">FloatRef</A>&nbsp;farVol)</CODE>
+
+<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Gets parameters used for 3D volume attenuation.</TD>
+</TR>
+<TR BGCOLOR="white" CLASS="TableRowColor">
+<TD ALIGN="right" VALIGN="top" WIDTH="1%"><FONT SIZE="-1">
+<CODE>static&nbsp;void</CODE></FONT></TD>
+<TD><CODE><B><A HREF="../../../com/crickettechnology/audio/Sound.html#get3dListenerPosition(com.crickettechnology.audio.FloatRef, com.crickettechnology.audio.FloatRef, com.crickettechnology.audio.FloatRef, com.crickettechnology.audio.FloatRef, com.crickettechnology.audio.FloatRef, com.crickettechnology.audio.FloatRef, com.crickettechnology.audio.FloatRef, com.crickettechnology.audio.FloatRef, com.crickettechnology.audio.FloatRef)">get3dListenerPosition</A></B>(<A HREF="../../../com/crickettechnology/audio/FloatRef.html" title="class in com.crickettechnology.audio">FloatRef</A>&nbsp;eyeX,
+                      <A HREF="../../../com/crickettechnology/audio/FloatRef.html" title="class in com.crickettechnology.audio">FloatRef</A>&nbsp;eyeY,
+                      <A HREF="../../../com/crickettechnology/audio/FloatRef.html" title="class in com.crickettechnology.audio">FloatRef</A>&nbsp;eyeZ,
+                      <A HREF="../../../com/crickettechnology/audio/FloatRef.html" title="class in com.crickettechnology.audio">FloatRef</A>&nbsp;lookAtX,
+                      <A HREF="../../../com/crickettechnology/audio/FloatRef.html" title="class in com.crickettechnology.audio">FloatRef</A>&nbsp;lookAtY,
+                      <A HREF="../../../com/crickettechnology/audio/FloatRef.html" title="class in com.crickettechnology.audio">FloatRef</A>&nbsp;lookAtZ,
+                      <A HREF="../../../com/crickettechnology/audio/FloatRef.html" title="class in com.crickettechnology.audio">FloatRef</A>&nbsp;upX,
+                      <A HREF="../../../com/crickettechnology/audio/FloatRef.html" title="class in com.crickettechnology.audio">FloatRef</A>&nbsp;upY,
+                      <A HREF="../../../com/crickettechnology/audio/FloatRef.html" title="class in com.crickettechnology.audio">FloatRef</A>&nbsp;upZ)</CODE>
+
+<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Gets the listener position and rotation in 3D space.</TD>
+</TR>
+<TR BGCOLOR="white" CLASS="TableRowColor">
+<TD ALIGN="right" VALIGN="top" WIDTH="1%"><FONT SIZE="-1">
+<CODE>static&nbsp;void</CODE></FONT></TD>
+<TD><CODE><B><A HREF="../../../com/crickettechnology/audio/Sound.html#get3dListenerVelocity(com.crickettechnology.audio.FloatRef, com.crickettechnology.audio.FloatRef, com.crickettechnology.audio.FloatRef)">get3dListenerVelocity</A></B>(<A HREF="../../../com/crickettechnology/audio/FloatRef.html" title="class in com.crickettechnology.audio">FloatRef</A>&nbsp;x,
+                      <A HREF="../../../com/crickettechnology/audio/FloatRef.html" title="class in com.crickettechnology.audio">FloatRef</A>&nbsp;y,
+                      <A HREF="../../../com/crickettechnology/audio/FloatRef.html" title="class in com.crickettechnology.audio">FloatRef</A>&nbsp;z)</CODE>
+
+<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Gets the listener velocity in 3D space.</TD>
+</TR>
+<TR BGCOLOR="white" CLASS="TableRowColor">
+<TD ALIGN="right" VALIGN="top" WIDTH="1%"><FONT SIZE="-1">
+<CODE>&nbsp;void</CODE></FONT></TD>
+<TD><CODE><B><A HREF="../../../com/crickettechnology/audio/Sound.html#get3dPosition(com.crickettechnology.audio.FloatRef, com.crickettechnology.audio.FloatRef, com.crickettechnology.audio.FloatRef)">get3dPosition</A></B>(<A HREF="../../../com/crickettechnology/audio/FloatRef.html" title="class in com.crickettechnology.audio">FloatRef</A>&nbsp;x,
+              <A HREF="../../../com/crickettechnology/audio/FloatRef.html" title="class in com.crickettechnology.audio">FloatRef</A>&nbsp;y,
+              <A HREF="../../../com/crickettechnology/audio/FloatRef.html" title="class in com.crickettechnology.audio">FloatRef</A>&nbsp;z)</CODE>
+
+<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Gets the position of the sound emitter in 3D space.</TD>
+</TR>
+<TR BGCOLOR="white" CLASS="TableRowColor">
+<TD ALIGN="right" VALIGN="top" WIDTH="1%"><FONT SIZE="-1">
+<CODE>static&nbsp;float</CODE></FONT></TD>
+<TD><CODE><B><A HREF="../../../com/crickettechnology/audio/Sound.html#get3dSoundSpeed()">get3dSoundSpeed</A></B>()</CODE>
+
+<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Gets the speed of sound.</TD>
+</TR>
+<TR BGCOLOR="white" CLASS="TableRowColor">
+<TD ALIGN="right" VALIGN="top" WIDTH="1%"><FONT SIZE="-1">
+<CODE>&nbsp;void</CODE></FONT></TD>
+<TD><CODE><B><A HREF="../../../com/crickettechnology/audio/Sound.html#get3dVelocity(com.crickettechnology.audio.FloatRef, com.crickettechnology.audio.FloatRef, com.crickettechnology.audio.FloatRef)">get3dVelocity</A></B>(<A HREF="../../../com/crickettechnology/audio/FloatRef.html" title="class in com.crickettechnology.audio">FloatRef</A>&nbsp;x,
+              <A HREF="../../../com/crickettechnology/audio/FloatRef.html" title="class in com.crickettechnology.audio">FloatRef</A>&nbsp;y,
+              <A HREF="../../../com/crickettechnology/audio/FloatRef.html" title="class in com.crickettechnology.audio">FloatRef</A>&nbsp;z)</CODE>
+
+<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Gets the velocity of the sound emitter in 3D space.</TD>
+</TR>
+<TR BGCOLOR="white" CLASS="TableRowColor">
+<TD ALIGN="right" VALIGN="top" WIDTH="1%"><FONT SIZE="-1">
+<CODE>&nbsp;int</CODE></FONT></TD>
+<TD><CODE><B><A HREF="../../../com/crickettechnology/audio/Sound.html#getChannels()">getChannels</A></B>()</CODE>
+
+<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Gets the number of channels in the sound (1 for mono, 2 for stereo).</TD>
+</TR>
+<TR BGCOLOR="white" CLASS="TableRowColor">
+<TD ALIGN="right" VALIGN="top" WIDTH="1%"><FONT SIZE="-1">
+<CODE>&nbsp;int</CODE></FONT></TD>
+<TD><CODE><B><A HREF="../../../com/crickettechnology/audio/Sound.html#getCurrentLoop()">getCurrentLoop</A></B>()</CODE>
+
+<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Gets the number of the current loop.</TD>
+</TR>
+<TR BGCOLOR="white" CLASS="TableRowColor">
+<TD ALIGN="right" VALIGN="top" WIDTH="1%"><FONT SIZE="-1">
+<CODE>&nbsp;int</CODE></FONT></TD>
+<TD><CODE><B><A HREF="../../../com/crickettechnology/audio/Sound.html#getLength()">getLength</A></B>()</CODE>
+
+<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Gets the total duration of the sound, in sample frames.</TD>
+</TR>
+<TR BGCOLOR="white" CLASS="TableRowColor">
+<TD ALIGN="right" VALIGN="top" WIDTH="1%"><FONT SIZE="-1">
+<CODE>&nbsp;float</CODE></FONT></TD>
+<TD><CODE><B><A HREF="../../../com/crickettechnology/audio/Sound.html#getLengthMs()">getLengthMs</A></B>()</CODE>
+
+<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Gets the total duration of the sound, in milliseconds.</TD>
+</TR>
+<TR BGCOLOR="white" CLASS="TableRowColor">
+<TD ALIGN="right" VALIGN="top" WIDTH="1%"><FONT SIZE="-1">
+<CODE>&nbsp;void</CODE></FONT></TD>
+<TD><CODE><B><A HREF="../../../com/crickettechnology/audio/Sound.html#getLoop(com.crickettechnology.audio.IntRef, com.crickettechnology.audio.IntRef)">getLoop</A></B>(<A HREF="../../../com/crickettechnology/audio/IntRef.html" title="class in com.crickettechnology.audio">IntRef</A>&nbsp;startFrame,
+        <A HREF="../../../com/crickettechnology/audio/IntRef.html" title="class in com.crickettechnology.audio">IntRef</A>&nbsp;endFrame)</CODE>
+
+<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Get the loop start and end.</TD>
+</TR>
+<TR BGCOLOR="white" CLASS="TableRowColor">
+<TD ALIGN="right" VALIGN="top" WIDTH="1%"><FONT SIZE="-1">
+<CODE>&nbsp;int</CODE></FONT></TD>
+<TD><CODE><B><A HREF="../../../com/crickettechnology/audio/Sound.html#getLoopCount()">getLoopCount</A></B>()</CODE>
+
+<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Gets the number of times the sound should loop.</TD>
+</TR>
+<TR BGCOLOR="white" CLASS="TableRowColor">
+<TD ALIGN="right" VALIGN="top" WIDTH="1%"><FONT SIZE="-1">
+<CODE>&nbsp;float</CODE></FONT></TD>
+<TD><CODE><B><A HREF="../../../com/crickettechnology/audio/Sound.html#getMixedVolume()">getMixedVolume</A></B>()</CODE>
+
+<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Gets the volume value used for mixing.</TD>
+</TR>
+<TR BGCOLOR="white" CLASS="TableRowColor">
+<TD ALIGN="right" VALIGN="top" WIDTH="1%"><FONT SIZE="-1">
+<CODE>&nbsp;<A HREF="../../../com/crickettechnology/audio/Mixer.html" title="class in com.crickettechnology.audio">Mixer</A></CODE></FONT></TD>
+<TD><CODE><B><A HREF="../../../com/crickettechnology/audio/Sound.html#getMixer()">getMixer</A></B>()</CODE>
+
+<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Gets the mixer to which this sound is assigned.</TD>
+</TR>
+<TR BGCOLOR="white" CLASS="TableRowColor">
+<TD ALIGN="right" VALIGN="top" WIDTH="1%"><FONT SIZE="-1">
+<CODE>&nbsp;float</CODE></FONT></TD>
+<TD><CODE><B><A HREF="../../../com/crickettechnology/audio/Sound.html#getPan()">getPan</A></B>()</CODE>
+
+<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Gets the pan.</TD>
+</TR>
+<TR BGCOLOR="white" CLASS="TableRowColor">
+<TD ALIGN="right" VALIGN="top" WIDTH="1%"><FONT SIZE="-1">
+<CODE>&nbsp;void</CODE></FONT></TD>
+<TD><CODE><B><A HREF="../../../com/crickettechnology/audio/Sound.html#getPanMatrix(com.crickettechnology.audio.FloatRef, com.crickettechnology.audio.FloatRef, com.crickettechnology.audio.FloatRef, com.crickettechnology.audio.FloatRef)">getPanMatrix</A></B>(<A HREF="../../../com/crickettechnology/audio/FloatRef.html" title="class in com.crickettechnology.audio">FloatRef</A>&nbsp;ll,
+             <A HREF="../../../com/crickettechnology/audio/FloatRef.html" title="class in com.crickettechnology.audio">FloatRef</A>&nbsp;lr,
+             <A HREF="../../../com/crickettechnology/audio/FloatRef.html" title="class in com.crickettechnology.audio">FloatRef</A>&nbsp;rl,
+             <A HREF="../../../com/crickettechnology/audio/FloatRef.html" title="class in com.crickettechnology.audio">FloatRef</A>&nbsp;rr)</CODE>
+
+<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Gets the pan matrix.</TD>
+</TR>
+<TR BGCOLOR="white" CLASS="TableRowColor">
+<TD ALIGN="right" VALIGN="top" WIDTH="1%"><FONT SIZE="-1">
+<CODE>&nbsp;float</CODE></FONT></TD>
+<TD><CODE><B><A HREF="../../../com/crickettechnology/audio/Sound.html#getPitchShift()">getPitchShift</A></B>()</CODE>
+
+<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Gets the pitch shift value, in half-steps.</TD>
+</TR>
+<TR BGCOLOR="white" CLASS="TableRowColor">
+<TD ALIGN="right" VALIGN="top" WIDTH="1%"><FONT SIZE="-1">
+<CODE>&nbsp;int</CODE></FONT></TD>
+<TD><CODE><B><A HREF="../../../com/crickettechnology/audio/Sound.html#getPlayPosition()">getPlayPosition</A></B>()</CODE>
+
+<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Get the current play position in the sound, in sample frames.</TD>
+</TR>
+<TR BGCOLOR="white" CLASS="TableRowColor">
+<TD ALIGN="right" VALIGN="top" WIDTH="1%"><FONT SIZE="-1">
+<CODE>&nbsp;float</CODE></FONT></TD>
+<TD><CODE><B><A HREF="../../../com/crickettechnology/audio/Sound.html#getPlayPositionMs()">getPlayPositionMs</A></B>()</CODE>
+
+<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Get the current play position in the sound, in milliseconds.</TD>
+</TR>
+<TR BGCOLOR="white" CLASS="TableRowColor">
+<TD ALIGN="right" VALIGN="top" WIDTH="1%"><FONT SIZE="-1">
+<CODE>&nbsp;int</CODE></FONT></TD>
+<TD><CODE><B><A HREF="../../../com/crickettechnology/audio/Sound.html#getSampleRate()">getSampleRate</A></B>()</CODE>
+
+<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Gets the sample rate of the sound, in Hz.</TD>
+</TR>
+<TR BGCOLOR="white" CLASS="TableRowColor">
+<TD ALIGN="right" VALIGN="top" WIDTH="1%"><FONT SIZE="-1">
+<CODE>&nbsp;float</CODE></FONT></TD>
+<TD><CODE><B><A HREF="../../../com/crickettechnology/audio/Sound.html#getSpeed()">getSpeed</A></B>()</CODE>
+
+<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Gets the playback speed.</TD>
+</TR>
+<TR BGCOLOR="white" CLASS="TableRowColor">
+<TD ALIGN="right" VALIGN="top" WIDTH="1%"><FONT SIZE="-1">
+<CODE>&nbsp;float</CODE></FONT></TD>
+<TD><CODE><B><A HREF="../../../com/crickettechnology/audio/Sound.html#getVolume()">getVolume</A></B>()</CODE>
+
+<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Gets the volume.</TD>
+</TR>
+<TR BGCOLOR="white" CLASS="TableRowColor">
+<TD ALIGN="right" VALIGN="top" WIDTH="1%"><FONT SIZE="-1">
+<CODE>&nbsp;boolean</CODE></FONT></TD>
+<TD><CODE><B><A HREF="../../../com/crickettechnology/audio/Sound.html#is3dEnabled()">is3dEnabled</A></B>()</CODE>
+
+<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Gets whether 3D positioning is enabled.</TD>
+</TR>
+<TR BGCOLOR="white" CLASS="TableRowColor">
+<TD ALIGN="right" VALIGN="top" WIDTH="1%"><FONT SIZE="-1">
+<CODE>&nbsp;boolean</CODE></FONT></TD>
+<TD><CODE><B><A HREF="../../../com/crickettechnology/audio/Sound.html#isFailed()">isFailed</A></B>()</CODE>
+
+<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Returns true if an error occurred while creating the sound.</TD>
+</TR>
+<TR BGCOLOR="white" CLASS="TableRowColor">
+<TD ALIGN="right" VALIGN="top" WIDTH="1%"><FONT SIZE="-1">
+<CODE>&nbsp;boolean</CODE></FONT></TD>
+<TD><CODE><B><A HREF="../../../com/crickettechnology/audio/Sound.html#isPaused()">isPaused</A></B>()</CODE>
+
+<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Gets whether the sound is paused.</TD>
+</TR>
+<TR BGCOLOR="white" CLASS="TableRowColor">
+<TD ALIGN="right" VALIGN="top" WIDTH="1%"><FONT SIZE="-1">
+<CODE>&nbsp;boolean</CODE></FONT></TD>
+<TD><CODE><B><A HREF="../../../com/crickettechnology/audio/Sound.html#isPlaying()">isPlaying</A></B>()</CODE>
+
+<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Gets whether the sound is playing.</TD>
+</TR>
+<TR BGCOLOR="white" CLASS="TableRowColor">
+<TD ALIGN="right" VALIGN="top" WIDTH="1%"><FONT SIZE="-1">
+<CODE>&nbsp;boolean</CODE></FONT></TD>
+<TD><CODE><B><A HREF="../../../com/crickettechnology/audio/Sound.html#isReady()">isReady</A></B>()</CODE>
+
+<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Returns true if the sound is ready.</TD>
+</TR>
+<TR BGCOLOR="white" CLASS="TableRowColor">
+<TD ALIGN="right" VALIGN="top" WIDTH="1%"><FONT SIZE="-1">
+<CODE>static&nbsp;<A HREF="../../../com/crickettechnology/audio/Sound.html" title="class in com.crickettechnology.audio">Sound</A></CODE></FONT></TD>
+<TD><CODE><B><A HREF="../../../com/crickettechnology/audio/Sound.html#newBankSound(com.crickettechnology.audio.Bank, int)">newBankSound</A></B>(<A HREF="../../../com/crickettechnology/audio/Bank.html" title="class in com.crickettechnology.audio">Bank</A>&nbsp;bank,
+             int&nbsp;index)</CODE>
+
+<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Creates a sound from a bank.</TD>
+</TR>
+<TR BGCOLOR="white" CLASS="TableRowColor">
+<TD ALIGN="right" VALIGN="top" WIDTH="1%"><FONT SIZE="-1">
+<CODE>static&nbsp;<A HREF="../../../com/crickettechnology/audio/Sound.html" title="class in com.crickettechnology.audio">Sound</A></CODE></FONT></TD>
+<TD><CODE><B><A HREF="../../../com/crickettechnology/audio/Sound.html#newBankSound(com.crickettechnology.audio.Bank, java.lang.String)">newBankSound</A></B>(<A HREF="../../../com/crickettechnology/audio/Bank.html" title="class in com.crickettechnology.audio">Bank</A>&nbsp;bank,
+             java.lang.String&nbsp;name)</CODE>
+
+<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Creates a sound from a bank.</TD>
+</TR>
+<TR BGCOLOR="white" CLASS="TableRowColor">
+<TD ALIGN="right" VALIGN="top" WIDTH="1%"><FONT SIZE="-1">
+<CODE>static&nbsp;<A HREF="../../../com/crickettechnology/audio/Sound.html" title="class in com.crickettechnology.audio">Sound</A></CODE></FONT></TD>
+<TD><CODE><B><A HREF="../../../com/crickettechnology/audio/Sound.html#newNetworkStreamSound(java.lang.String)">newNetworkStreamSound</A></B>(java.lang.String&nbsp;url)</CODE>
+
+<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Creates an HTTP network streaming sound</TD>
+</TR>
+<TR BGCOLOR="white" CLASS="TableRowColor">
+<TD ALIGN="right" VALIGN="top" WIDTH="1%"><FONT SIZE="-1">
+<CODE>static&nbsp;<A HREF="../../../com/crickettechnology/audio/Sound.html" title="class in com.crickettechnology.audio">Sound</A></CODE></FONT></TD>
+<TD><CODE><B><A HREF="../../../com/crickettechnology/audio/Sound.html#newStreamSound(java.lang.String)">newStreamSound</A></B>(java.lang.String&nbsp;filename)</CODE>
+
+<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Creates a streaming sound from an asset in the .apk.</TD>
+</TR>
+<TR BGCOLOR="white" CLASS="TableRowColor">
+<TD ALIGN="right" VALIGN="top" WIDTH="1%"><FONT SIZE="-1">
+<CODE>static&nbsp;<A HREF="../../../com/crickettechnology/audio/Sound.html" title="class in com.crickettechnology.audio">Sound</A></CODE></FONT></TD>
+<TD><CODE><B><A HREF="../../../com/crickettechnology/audio/Sound.html#newStreamSound(java.lang.String, com.crickettechnology.audio.PathType)">newStreamSound</A></B>(java.lang.String&nbsp;filename,
+               <A HREF="../../../com/crickettechnology/audio/PathType.html" title="class in com.crickettechnology.audio">PathType</A>&nbsp;pathType)</CODE>
+
+<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Creates a streaming sound.</TD>
+</TR>
+<TR BGCOLOR="white" CLASS="TableRowColor">
+<TD ALIGN="right" VALIGN="top" WIDTH="1%"><FONT SIZE="-1">
+<CODE>&nbsp;void</CODE></FONT></TD>
+<TD><CODE><B><A HREF="../../../com/crickettechnology/audio/Sound.html#play()">play</A></B>()</CODE>
+
+<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Play the sound.</TD>
+</TR>
+<TR BGCOLOR="white" CLASS="TableRowColor">
+<TD ALIGN="right" VALIGN="top" WIDTH="1%"><FONT SIZE="-1">
+<CODE>&nbsp;void</CODE></FONT></TD>
+<TD><CODE><B><A HREF="../../../com/crickettechnology/audio/Sound.html#releaseLoop()">releaseLoop</A></B>()</CODE>
+
+<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Makes the current loop the last.</TD>
+</TR>
+<TR BGCOLOR="white" CLASS="TableRowColor">
+<TD ALIGN="right" VALIGN="top" WIDTH="1%"><FONT SIZE="-1">
+<CODE>static&nbsp;void</CODE></FONT></TD>
+<TD><CODE><B><A HREF="../../../com/crickettechnology/audio/Sound.html#set3dAttenuation(com.crickettechnology.audio.AttenuationMode, float, float, float)">set3dAttenuation</A></B>(<A HREF="../../../com/crickettechnology/audio/AttenuationMode.html" title="class in com.crickettechnology.audio">AttenuationMode</A>&nbsp;mode,
+                 float&nbsp;nearDist,
+                 float&nbsp;farDist,
+                 float&nbsp;farVol)</CODE>
+
+<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Sets parameters used for 3D volume attenuation.</TD>
+</TR>
+<TR BGCOLOR="white" CLASS="TableRowColor">
+<TD ALIGN="right" VALIGN="top" WIDTH="1%"><FONT SIZE="-1">
+<CODE>&nbsp;void</CODE></FONT></TD>
+<TD><CODE><B><A HREF="../../../com/crickettechnology/audio/Sound.html#set3dEnabled(boolean)">set3dEnabled</A></B>(boolean&nbsp;enabled)</CODE>
+
+<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Sets whether 3D positioning is enabled.</TD>
+</TR>
+<TR BGCOLOR="white" CLASS="TableRowColor">
+<TD ALIGN="right" VALIGN="top" WIDTH="1%"><FONT SIZE="-1">
+<CODE>static&nbsp;void</CODE></FONT></TD>
+<TD><CODE><B><A HREF="../../../com/crickettechnology/audio/Sound.html#set3dListenerPosition(float, float, float, float, float, float, float, float, float)">set3dListenerPosition</A></B>(float&nbsp;eyeX,
+                      float&nbsp;eyeY,
+                      float&nbsp;eyeZ,
+                      float&nbsp;lookAtX,
+                      float&nbsp;lookAtY,
+                      float&nbsp;lookAtZ,
+                      float&nbsp;upX,
+                      float&nbsp;upY,
+                      float&nbsp;upZ)</CODE>
+
+<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Sets the listener position and rotation in 3D space.</TD>
+</TR>
+<TR BGCOLOR="white" CLASS="TableRowColor">
+<TD ALIGN="right" VALIGN="top" WIDTH="1%"><FONT SIZE="-1">
+<CODE>static&nbsp;void</CODE></FONT></TD>
+<TD><CODE><B><A HREF="../../../com/crickettechnology/audio/Sound.html#set3dListenerVelocity(float, float, float)">set3dListenerVelocity</A></B>(float&nbsp;x,
+                      float&nbsp;y,
+                      float&nbsp;z)</CODE>
+
+<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Sets the listener velocity in 3D space.</TD>
+</TR>
+<TR BGCOLOR="white" CLASS="TableRowColor">
+<TD ALIGN="right" VALIGN="top" WIDTH="1%"><FONT SIZE="-1">
+<CODE>&nbsp;void</CODE></FONT></TD>
+<TD><CODE><B><A HREF="../../../com/crickettechnology/audio/Sound.html#set3dPosition(float, float, float)">set3dPosition</A></B>(float&nbsp;x,
+              float&nbsp;y,
+              float&nbsp;z)</CODE>
+
+<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Sets the position of the sound emitter in 3D space.</TD>
+</TR>
+<TR BGCOLOR="white" CLASS="TableRowColor">
+<TD ALIGN="right" VALIGN="top" WIDTH="1%"><FONT SIZE="-1">
+<CODE>static&nbsp;void</CODE></FONT></TD>
+<TD><CODE><B><A HREF="../../../com/crickettechnology/audio/Sound.html#set3dSoundSpeed(float)">set3dSoundSpeed</A></B>(float&nbsp;speed)</CODE>
+
+<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Sets the speed of sound.</TD>
+</TR>
+<TR BGCOLOR="white" CLASS="TableRowColor">
+<TD ALIGN="right" VALIGN="top" WIDTH="1%"><FONT SIZE="-1">
+<CODE>&nbsp;void</CODE></FONT></TD>
+<TD><CODE><B><A HREF="../../../com/crickettechnology/audio/Sound.html#set3dVelocity(float, float, float)">set3dVelocity</A></B>(float&nbsp;x,
+              float&nbsp;y,
+              float&nbsp;z)</CODE>
+
+<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Sets the velocity of the sound emitter in 3D space.</TD>
+</TR>
+<TR BGCOLOR="white" CLASS="TableRowColor">
+<TD ALIGN="right" VALIGN="top" WIDTH="1%"><FONT SIZE="-1">
+<CODE>&nbsp;void</CODE></FONT></TD>
+<TD><CODE><B><A HREF="../../../com/crickettechnology/audio/Sound.html#setEffectBus(com.crickettechnology.audio.EffectBus)">setEffectBus</A></B>(<A HREF="../../../com/crickettechnology/audio/EffectBus.html" title="class in com.crickettechnology.audio">EffectBus</A>&nbsp;bus)</CODE>
+
+<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Sets the effect bus to which this sound's audio is sent to be processed, or
+      null for dry output (no effects).</TD>
+</TR>
+<TR BGCOLOR="white" CLASS="TableRowColor">
+<TD ALIGN="right" VALIGN="top" WIDTH="1%"><FONT SIZE="-1">
+<CODE>&nbsp;void</CODE></FONT></TD>
+<TD><CODE><B><A HREF="../../../com/crickettechnology/audio/Sound.html#setLoop(int, int)">setLoop</A></B>(int&nbsp;startFrame,
+        int&nbsp;endFrame)</CODE>
+
+<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Set the loop start and end.</TD>
+</TR>
+<TR BGCOLOR="white" CLASS="TableRowColor">
+<TD ALIGN="right" VALIGN="top" WIDTH="1%"><FONT SIZE="-1">
+<CODE>&nbsp;void</CODE></FONT></TD>
+<TD><CODE><B><A HREF="../../../com/crickettechnology/audio/Sound.html#setLoopCount(int)">setLoopCount</A></B>(int&nbsp;loopCount)</CODE>
+
+<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Sets the number of times the sound should loop.</TD>
+</TR>
+<TR BGCOLOR="white" CLASS="TableRowColor">
+<TD ALIGN="right" VALIGN="top" WIDTH="1%"><FONT SIZE="-1">
+<CODE>&nbsp;void</CODE></FONT></TD>
+<TD><CODE><B><A HREF="../../../com/crickettechnology/audio/Sound.html#setMixer(com.crickettechnology.audio.Mixer)">setMixer</A></B>(<A HREF="../../../com/crickettechnology/audio/Mixer.html" title="class in com.crickettechnology.audio">Mixer</A>&nbsp;mixer)</CODE>
+
+<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Sets the mixer to which this sound is assigned.</TD>
+</TR>
+<TR BGCOLOR="white" CLASS="TableRowColor">
+<TD ALIGN="right" VALIGN="top" WIDTH="1%"><FONT SIZE="-1">
+<CODE>&nbsp;void</CODE></FONT></TD>
+<TD><CODE><B><A HREF="../../../com/crickettechnology/audio/Sound.html#setPan(float)">setPan</A></B>(float&nbsp;pan)</CODE>
+
+<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Sets the pan.</TD>
+</TR>
+<TR BGCOLOR="white" CLASS="TableRowColor">
+<TD ALIGN="right" VALIGN="top" WIDTH="1%"><FONT SIZE="-1">
+<CODE>&nbsp;void</CODE></FONT></TD>
+<TD><CODE><B><A HREF="../../../com/crickettechnology/audio/Sound.html#setPanMatrix(float, float, float, float)">setPanMatrix</A></B>(float&nbsp;ll,
+             float&nbsp;lr,
+             float&nbsp;rl,
+             float&nbsp;rr)</CODE>
+
+<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Sets the pan matrix explicitly.</TD>
+</TR>
+<TR BGCOLOR="white" CLASS="TableRowColor">
+<TD ALIGN="right" VALIGN="top" WIDTH="1%"><FONT SIZE="-1">
+<CODE>&nbsp;void</CODE></FONT></TD>
+<TD><CODE><B><A HREF="../../../com/crickettechnology/audio/Sound.html#setPaused(boolean)">setPaused</A></B>(boolean&nbsp;paused)</CODE>
+
+<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Sets whether the sound is paused.</TD>
+</TR>
+<TR BGCOLOR="white" CLASS="TableRowColor">
+<TD ALIGN="right" VALIGN="top" WIDTH="1%"><FONT SIZE="-1">
+<CODE>&nbsp;void</CODE></FONT></TD>
+<TD><CODE><B><A HREF="../../../com/crickettechnology/audio/Sound.html#setPitchShift(float)">setPitchShift</A></B>(float&nbsp;halfSteps)</CODE>
+
+<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Sets the pitch shift value, in half-steps.</TD>
+</TR>
+<TR BGCOLOR="white" CLASS="TableRowColor">
+<TD ALIGN="right" VALIGN="top" WIDTH="1%"><FONT SIZE="-1">
+<CODE>&nbsp;void</CODE></FONT></TD>
+<TD><CODE><B><A HREF="../../../com/crickettechnology/audio/Sound.html#setPlayPosition(int)">setPlayPosition</A></B>(int&nbsp;frame)</CODE>
+
+<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Set the play position in the sound, in sample frames.</TD>
+</TR>
+<TR BGCOLOR="white" CLASS="TableRowColor">
+<TD ALIGN="right" VALIGN="top" WIDTH="1%"><FONT SIZE="-1">
+<CODE>&nbsp;void</CODE></FONT></TD>
+<TD><CODE><B><A HREF="../../../com/crickettechnology/audio/Sound.html#setPlayPositionMs(float)">setPlayPositionMs</A></B>(float&nbsp;ms)</CODE>
+
+<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Set the play position in the sound, in milliseconds.</TD>
+</TR>
+<TR BGCOLOR="white" CLASS="TableRowColor">
+<TD ALIGN="right" VALIGN="top" WIDTH="1%"><FONT SIZE="-1">
+<CODE>&nbsp;void</CODE></FONT></TD>
+<TD><CODE><B><A HREF="../../../com/crickettechnology/audio/Sound.html#setSpeed(float)">setSpeed</A></B>(float&nbsp;speed)</CODE>
+
+<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Sets the playback speed.</TD>
+</TR>
+<TR BGCOLOR="white" CLASS="TableRowColor">
+<TD ALIGN="right" VALIGN="top" WIDTH="1%"><FONT SIZE="-1">
+<CODE>&nbsp;void</CODE></FONT></TD>
+<TD><CODE><B><A HREF="../../../com/crickettechnology/audio/Sound.html#setVolume(float)">setVolume</A></B>(float&nbsp;volume)</CODE>
+
+<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Sets the volume.</TD>
+</TR>
+<TR BGCOLOR="white" CLASS="TableRowColor">
+<TD ALIGN="right" VALIGN="top" WIDTH="1%"><FONT SIZE="-1">
+<CODE>&nbsp;void</CODE></FONT></TD>
+<TD><CODE><B><A HREF="../../../com/crickettechnology/audio/Sound.html#stop()">stop</A></B>()</CODE>
+
+<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Stop the sound.</TD>
+</TR>
+</TABLE>
+&nbsp;<A NAME="methods_inherited_from_class_java.lang.Object"><!-- --></A>
+<TABLE BORDER="1" WIDTH="100%" CELLPADDING="3" CELLSPACING="0" SUMMARY="">
+<TR BGCOLOR="#EEEEFF" CLASS="TableSubHeadingColor">
+<TH ALIGN="left"><B>Methods inherited from class java.lang.Object</B></TH>
+</TR>
+<TR BGCOLOR="white" CLASS="TableRowColor">
+<TD><CODE>equals, getClass, hashCode, notify, notifyAll, toString, wait, wait, wait</CODE></TD>
+</TR>
+</TABLE>
+&nbsp;
+<P>
+
+<!-- ============ FIELD DETAIL =========== -->
+
+<A NAME="field_detail"><!-- --></A>
+<TABLE BORDER="1" WIDTH="100%" CELLPADDING="3" CELLSPACING="0" SUMMARY="">
+<TR BGCOLOR="#CCCCFF" CLASS="TableHeadingColor">
+<TH ALIGN="left" COLSPAN="1"><FONT SIZE="+2">
+<B>Field Detail</B></FONT></TH>
+</TR>
+</TABLE>
+
+<A NAME="SOUND_SPEED_CENTIMETERS_PER_SECOND"><!-- --></A><H3>
+SOUND_SPEED_CENTIMETERS_PER_SECOND</H3>
+<PRE>
+public static final float <B>SOUND_SPEED_CENTIMETERS_PER_SECOND</B></PRE>
+<DL>
+<DD>The speed of sound in dry air at 20 degrees C, in centimeters per second.
+      This value is provided as a convenience for set3dSoundSpeed().
+<P>
+<DL>
+<DT><B>See Also:</B><DD><A HREF="../../../constant-values.html#com.crickettechnology.audio.Sound.SOUND_SPEED_CENTIMETERS_PER_SECOND">Constant Field Values</A></DL>
+</DL>
+<HR>
+
+<A NAME="SOUND_SPEED_METERS_PER_SECOND"><!-- --></A><H3>
+SOUND_SPEED_METERS_PER_SECOND</H3>
+<PRE>
+public static final float <B>SOUND_SPEED_METERS_PER_SECOND</B></PRE>
+<DL>
+<DD>The speed of sound in dry air at 20 degrees C, in meters per second.
+      This value is provided as a convenience for set3dSoundSpeed().
+<P>
+<DL>
+<DT><B>See Also:</B><DD><A HREF="../../../constant-values.html#com.crickettechnology.audio.Sound.SOUND_SPEED_METERS_PER_SECOND">Constant Field Values</A></DL>
+</DL>
+<HR>
+
+<A NAME="SOUND_SPEED_INCHES_PER_SECOND"><!-- --></A><H3>
+SOUND_SPEED_INCHES_PER_SECOND</H3>
+<PRE>
+public static final float <B>SOUND_SPEED_INCHES_PER_SECOND</B></PRE>
+<DL>
+<DD>The speed of sound in dry air at 20 degrees C, in inches per second.
+      This value is provided as a convenience for set3dSoundSpeed().
+<P>
+<DL>
+<DT><B>See Also:</B><DD><A HREF="../../../constant-values.html#com.crickettechnology.audio.Sound.SOUND_SPEED_INCHES_PER_SECOND">Constant Field Values</A></DL>
+</DL>
+<HR>
+
+<A NAME="SOUND_SPEED_FEET_PER_SECOND"><!-- --></A><H3>
+SOUND_SPEED_FEET_PER_SECOND</H3>
+<PRE>
+public static final float <B>SOUND_SPEED_FEET_PER_SECOND</B></PRE>
+<DL>
+<DD>The speed of sound in dry air at 20 degrees C, in feet per second.
+      This value is provided as a convenience for set3dSoundSpeed().
+<P>
+<DL>
+<DT><B>See Also:</B><DD><A HREF="../../../constant-values.html#com.crickettechnology.audio.Sound.SOUND_SPEED_FEET_PER_SECOND">Constant Field Values</A></DL>
+</DL>
+
+<!-- ============ METHOD DETAIL ========== -->
+
+<A NAME="method_detail"><!-- --></A>
+<TABLE BORDER="1" WIDTH="100%" CELLPADDING="3" CELLSPACING="0" SUMMARY="">
+<TR BGCOLOR="#CCCCFF" CLASS="TableHeadingColor">
+<TH ALIGN="left" COLSPAN="1"><FONT SIZE="+2">
+<B>Method Detail</B></FONT></TH>
+</TR>
+</TABLE>
+
+<A NAME="setMixer(com.crickettechnology.audio.Mixer)"><!-- --></A><H3>
+setMixer</H3>
+<PRE>
+public void <B>setMixer</B>(<A HREF="../../../com/crickettechnology/audio/Mixer.html" title="class in com.crickettechnology.audio">Mixer</A>&nbsp;mixer)</PRE>
+<DL>
+<DD>Sets the mixer to which this sound is assigned.
+      Setting null will assign it to the master mixer.
+<P>
+<DD><DL>
+</DL>
+</DD>
+</DL>
+<HR>
+
+<A NAME="getMixer()"><!-- --></A><H3>
+getMixer</H3>
+<PRE>
+public <A HREF="../../../com/crickettechnology/audio/Mixer.html" title="class in com.crickettechnology.audio">Mixer</A> <B>getMixer</B>()</PRE>
+<DL>
+<DD>Gets the mixer to which this sound is assigned.
+<P>
+<DD><DL>
+</DL>
+</DD>
+</DL>
+<HR>
+
+<A NAME="isReady()"><!-- --></A><H3>
+isReady</H3>
+<PRE>
+public boolean <B>isReady</B>()</PRE>
+<DL>
+<DD>Returns true if the sound is ready.
+      Bank sounds are ready immediately after creation; stream sounds may not be.
+<P>
+<DD><DL>
+</DL>
+</DD>
+</DL>
+<HR>
+
+<A NAME="isFailed()"><!-- --></A><H3>
+isFailed</H3>
+<PRE>
+public boolean <B>isFailed</B>()</PRE>
+<DL>
+<DD>Returns true if an error occurred while creating the sound.
+<P>
+<DD><DL>
+</DL>
+</DD>
+</DL>
+<HR>
+
+<A NAME="play()"><!-- --></A><H3>
+play</H3>
+<PRE>
+public void <B>play</B>()</PRE>
+<DL>
+<DD>Play the sound.
+<P>
+<DD><DL>
+</DL>
+</DD>
+</DL>
+<HR>
+
+<A NAME="stop()"><!-- --></A><H3>
+stop</H3>
+<PRE>
+public void <B>stop</B>()</PRE>
+<DL>
+<DD>Stop the sound.
+<P>
+<DD><DL>
+</DL>
+</DD>
+</DL>
+<HR>
+
+<A NAME="isPlaying()"><!-- --></A><H3>
+isPlaying</H3>
+<PRE>
+public boolean <B>isPlaying</B>()</PRE>
+<DL>
+<DD>Gets whether the sound is playing.
+<P>
+<DD><DL>
+</DL>
+</DD>
+</DL>
+<HR>
+
+<A NAME="setPaused(boolean)"><!-- --></A><H3>
+setPaused</H3>
+<PRE>
+public void <B>setPaused</B>(boolean&nbsp;paused)</PRE>
+<DL>
+<DD>Sets whether the sound is paused.
+<P>
+<DD><DL>
+</DL>
+</DD>
+</DL>
+<HR>
+
+<A NAME="isPaused()"><!-- --></A><H3>
+isPaused</H3>
+<PRE>
+public boolean <B>isPaused</B>()</PRE>
+<DL>
+<DD>Gets whether the sound is paused.
+<P>
+<DD><DL>
+</DL>
+</DD>
+</DL>
+<HR>
+
+<A NAME="setLoop(int, int)"><!-- --></A><H3>
+setLoop</H3>
+<PRE>
+public void <B>setLoop</B>(int&nbsp;startFrame,
+                    int&nbsp;endFrame)</PRE>
+<DL>
+<DD>Set the loop start and end.
+      Default is to loop over all sample frames. 
+      EndFrame is defined as one frame after the last frame of the loop.
+      Setting endFrame = -1 is equivalent to setting it to getLength().
+<P>
+<DD><DL>
+</DL>
+</DD>
+</DL>
+<HR>
+
+<A NAME="getLoop(com.crickettechnology.audio.IntRef, com.crickettechnology.audio.IntRef)"><!-- --></A><H3>
+getLoop</H3>
+<PRE>
+public void <B>getLoop</B>(<A HREF="../../../com/crickettechnology/audio/IntRef.html" title="class in com.crickettechnology.audio">IntRef</A>&nbsp;startFrame,
+                    <A HREF="../../../com/crickettechnology/audio/IntRef.html" title="class in com.crickettechnology.audio">IntRef</A>&nbsp;endFrame)</PRE>
+<DL>
+<DD>Get the loop start and end.
+<P>
+<DD><DL>
+</DL>
+</DD>
+</DL>
+<HR>
+
+<A NAME="setLoopCount(int)"><!-- --></A><H3>
+setLoopCount</H3>
+<PRE>
+public void <B>setLoopCount</B>(int&nbsp;loopCount)</PRE>
+<DL>
+<DD>Sets the number of times the sound should loop.  
+      <ul>
+      <li>0 means no looping (play once and then stop).</li>
+      <li>1 means it will play twice; 2 means it will play 3 times; etc. </li>
+      <li>-1 means it will loop indefinitely until the sound is stopped or releaseLoop() is called.</li>
+      </ul>
+<P>
+<DD><DL>
+</DL>
+</DD>
+</DL>
+<HR>
+
+<A NAME="getLoopCount()"><!-- --></A><H3>
+getLoopCount</H3>
+<PRE>
+public int <B>getLoopCount</B>()</PRE>
+<DL>
+<DD>Gets the number of times the sound should loop.  
+      <ul>
+      <li>0 means no looping (play once and then stop).</li>
+      <li>1 means it will play twice; 2 means it will play 3 times; etc. </li>
+      <li>-1 means it will loop indefinitely until the sound is stopped or releaseLoop() is called.</li>
+      </ul>
+<P>
+<DD><DL>
+</DL>
+</DD>
+</DL>
+<HR>
+
+<A NAME="getCurrentLoop()"><!-- --></A><H3>
+getCurrentLoop</H3>
+<PRE>
+public int <B>getCurrentLoop</B>()</PRE>
+<DL>
+<DD>Gets the number of the current loop.
+      For example, returns 0 if this is the first time playing through this sample;
+      returns 1 if it is on its second loop through the sample; etc.
+<P>
+<DD><DL>
+</DL>
+</DD>
+</DL>
+<HR>
+
+<A NAME="releaseLoop()"><!-- --></A><H3>
+releaseLoop</H3>
+<PRE>
+public void <B>releaseLoop</B>()</PRE>
+<DL>
+<DD>Makes the current loop the last.
+      This is useful when you don't know in advance how many times you will
+      want to loop; set the loop count to -1, and call releaseLoop() when
+      you want it to stop looping and play to the end.
+<P>
+<DD><DL>
+</DL>
+</DD>
+</DL>
+<HR>
+
+<A NAME="setPlayPosition(int)"><!-- --></A><H3>
+setPlayPosition</H3>
+<PRE>
+public void <B>setPlayPosition</B>(int&nbsp;frame)</PRE>
+<DL>
+<DD>Set the play position in the sound, in sample frames.
+      This can be called before playing, to start from an offset into
+      the sound; or during playback, to jump to a new location. 
+      <p>
+      This is not supported for streams in formats other than .cks; use setPlayPositionMs() instead when possible.
+<P>
+<DD><DL>
+</DL>
+</DD>
+</DL>
+<HR>
+
+<A NAME="setPlayPositionMs(float)"><!-- --></A><H3>
+setPlayPositionMs</H3>
+<PRE>
+public void <B>setPlayPositionMs</B>(float&nbsp;ms)</PRE>
+<DL>
+<DD>Set the play position in the sound, in milliseconds.
+      This can be called before playing, to start from an offset into
+      the sound; or during playback, to jump to a new location.
+<P>
+<DD><DL>
+</DL>
+</DD>
+</DL>
+<HR>
+
+<A NAME="getPlayPosition()"><!-- --></A><H3>
+getPlayPosition</H3>
+<PRE>
+public int <B>getPlayPosition</B>()</PRE>
+<DL>
+<DD>Get the current play position in the sound, in sample frames. 
+      <p>
+      This is not supported for streams in formats other than .cks; use getPlayPositionMs() instead when possible.
+<P>
+<DD><DL>
+</DL>
+</DD>
+</DL>
+<HR>
+
+<A NAME="getPlayPositionMs()"><!-- --></A><H3>
+getPlayPositionMs</H3>
+<PRE>
+public float <B>getPlayPositionMs</B>()</PRE>
+<DL>
+<DD>Get the current play position in the sound, in milliseconds.
+<P>
+<DD><DL>
+</DL>
+</DD>
+</DL>
+<HR>
+
+<A NAME="setVolume(float)"><!-- --></A><H3>
+setVolume</H3>
+<PRE>
+public void <B>setVolume</B>(float&nbsp;volume)</PRE>
+<DL>
+<DD>Sets the volume.
+      The volume can range from 0 to 1. The default value is 1.
+<P>
+<DD><DL>
+</DL>
+</DD>
+</DL>
+<HR>
+
+<A NAME="getVolume()"><!-- --></A><H3>
+getVolume</H3>
+<PRE>
+public float <B>getVolume</B>()</PRE>
+<DL>
+<DD>Gets the volume.
+      The volume can range from 0 to 1. The default value is 1.
+<P>
+<DD><DL>
+</DL>
+</DD>
+</DL>
+<HR>
+
+<A NAME="getMixedVolume()"><!-- --></A><H3>
+getMixedVolume</H3>
+<PRE>
+public float <B>getMixedVolume</B>()</PRE>
+<DL>
+<DD>Gets the volume value used for mixing. 
+      This is the product of the volume set with setVolume() and the mixed
+      volume value of the mixer to which the sound is assigned.
+<P>
+<DD><DL>
+</DL>
+</DD>
+</DL>
+<HR>
+
+<A NAME="setPan(float)"><!-- --></A><H3>
+setPan</H3>
+<PRE>
+public void <B>setPan</B>(float&nbsp;pan)</PRE>
+<DL>
+<DD>Sets the pan.
+      The pan can range from -1 (left) to +1 (right). The default is 0 (center).
+<P>
+<DD><DL>
+</DL>
+</DD>
+</DL>
+<HR>
+
+<A NAME="getPan()"><!-- --></A><H3>
+getPan</H3>
+<PRE>
+public float <B>getPan</B>()</PRE>
+<DL>
+<DD>Gets the pan.
+      The pan can range from -1 (left) to +1 (right). The default is 0 (center).
+<P>
+<DD><DL>
+</DL>
+</DD>
+</DL>
+<HR>
+
+<A NAME="setPanMatrix(float, float, float, float)"><!-- --></A><H3>
+setPanMatrix</H3>
+<PRE>
+public void <B>setPanMatrix</B>(float&nbsp;ll,
+                         float&nbsp;lr,
+                         float&nbsp;rl,
+                         float&nbsp;rr)</PRE>
+<DL>
+<DD>Sets the pan matrix explicitly.  
+      The pan matrix determines how the left and right channels of an input are weighted during mixing.
+      Usually it is set by setPan(), but you can use setPanMatrix() if you need more control.
+      For a mono input, the left channel of the output is the input scaled by ll, and the right channel of the output is the input scaled by rr.  The off-diagonal lr and rl terms are ignored.
+      For a stereo input, the left channel of the output is the left channel of the input scaled by ll plus the right channel of the input scaled by lr.  The right channel of the output is the left channel of the input scaled by rl plus the right channel of the input scaled by rr.
+<P>
+<DD><DL>
+</DL>
+</DD>
+</DL>
+<HR>
+
+<A NAME="getPanMatrix(com.crickettechnology.audio.FloatRef, com.crickettechnology.audio.FloatRef, com.crickettechnology.audio.FloatRef, com.crickettechnology.audio.FloatRef)"><!-- --></A><H3>
+getPanMatrix</H3>
+<PRE>
+public void <B>getPanMatrix</B>(<A HREF="../../../com/crickettechnology/audio/FloatRef.html" title="class in com.crickettechnology.audio">FloatRef</A>&nbsp;ll,
+                         <A HREF="../../../com/crickettechnology/audio/FloatRef.html" title="class in com.crickettechnology.audio">FloatRef</A>&nbsp;lr,
+                         <A HREF="../../../com/crickettechnology/audio/FloatRef.html" title="class in com.crickettechnology.audio">FloatRef</A>&nbsp;rl,
+                         <A HREF="../../../com/crickettechnology/audio/FloatRef.html" title="class in com.crickettechnology.audio">FloatRef</A>&nbsp;rr)</PRE>
+<DL>
+<DD>Gets the pan matrix.
+      The pan matrix determines how the left and right channels of an input are weighted during mixing.
+      Usually it is set by setPan(), but you can use setPanMatrix() if you need more control.
+      For a mono input, the left channel of the output is the input scaled by ll, and the right channel of the output is the input scaled by rr.  The off-diagonal lr and rl terms are ignored.
+      For a stereo input, the left channel of the output is the left channel of the input scaled by ll plus the right channel of the input scaled by lr.  The right channel of the output is the left channel of the input scaled by rl plus the right channel of the input scaled by rr.
+<P>
+<DD><DL>
+</DL>
+</DD>
+</DL>
+<HR>
+
+<A NAME="setPitchShift(float)"><!-- --></A><H3>
+setPitchShift</H3>
+<PRE>
+public void <B>setPitchShift</B>(float&nbsp;halfSteps)</PRE>
+<DL>
+<DD>Sets the pitch shift value, in half-steps.
+      This also changes the playback speed of the sound.  
+      Positive values mean higher pitch (and faster playback); lower values mean lower pitch 
+      (and slower playback).  The default value is 0. 
+      <p>
+      This does not work for streams in formats other than .cks.
+<P>
+<DD><DL>
+</DL>
+</DD>
+</DL>
+<HR>
+
+<A NAME="getPitchShift()"><!-- --></A><H3>
+getPitchShift</H3>
+<PRE>
+public float <B>getPitchShift</B>()</PRE>
+<DL>
+<DD>Gets the pitch shift value, in half-steps.
+      Positive values mean higher pitch (and faster playback); lower values mean lower pitch 
+      (and slower playback).  The default value is 0. 
+      <p>
+      This does not work for streams in formats other than .cks.
+<P>
+<DD><DL>
+</DL>
+</DD>
+</DL>
+<HR>
+
+<A NAME="setSpeed(float)"><!-- --></A><H3>
+setSpeed</H3>
+<PRE>
+public void <B>setSpeed</B>(float&nbsp;speed)</PRE>
+<DL>
+<DD>Sets the playback speed.
+      Values greater than 1 mean faster playback; values less than 1 mean
+      slower playback.  The default value is 1. 
+      <p>
+      This does not work for streams in formats other than .cks.
+<P>
+<DD><DL>
+</DL>
+</DD>
+</DL>
+<HR>
+
+<A NAME="getSpeed()"><!-- --></A><H3>
+getSpeed</H3>
+<PRE>
+public float <B>getSpeed</B>()</PRE>
+<DL>
+<DD>Gets the playback speed.
+      Values greater than 1 mean faster playback; values less than 1 mean
+      slower playback.  The default value is 1. 
+      <p>
+      This does not work for streams in formats other than .cks.
+<P>
+<DD><DL>
+</DL>
+</DD>
+</DL>
+<HR>
+
+<A NAME="getLength()"><!-- --></A><H3>
+getLength</H3>
+<PRE>
+public int <B>getLength</B>()</PRE>
+<DL>
+<DD>Gets the total duration of the sound, in sample frames.
+      Stream sounds will return -1 if they are not ready. 
+      <p>
+      This does not work for streams in formats other than .cks; use getLengthMs() instead.
+<P>
+<DD><DL>
+</DL>
+</DD>
+</DL>
+<HR>
+
+<A NAME="getLengthMs()"><!-- --></A><H3>
+getLengthMs</H3>
+<PRE>
+public float <B>getLengthMs</B>()</PRE>
+<DL>
+<DD>Gets the total duration of the sound, in milliseconds.
+      Stream sounds will return -1 if they are not ready.
+<P>
+<DD><DL>
+</DL>
+</DD>
+</DL>
+<HR>
+
+<A NAME="getSampleRate()"><!-- --></A><H3>
+getSampleRate</H3>
+<PRE>
+public int <B>getSampleRate</B>()</PRE>
+<DL>
+<DD>Gets the sample rate of the sound, in Hz.
+      Stream sounds will return -1 if they are not ready. 
+      <p>
+      This does not work for streams in formats other than .cks.
+<P>
+<DD><DL>
+</DL>
+</DD>
+</DL>
+<HR>
+
+<A NAME="getChannels()"><!-- --></A><H3>
+getChannels</H3>
+<PRE>
+public int <B>getChannels</B>()</PRE>
+<DL>
+<DD>Gets the number of channels in the sound (1 for mono, 2 for stereo).
+      Stream sounds will return -1 if they are not ready.
+<P>
+<DD><DL>
+</DL>
+</DD>
+</DL>
+<HR>
+
+<A NAME="setEffectBus(com.crickettechnology.audio.EffectBus)"><!-- --></A><H3>
+setEffectBus</H3>
+<PRE>
+public void <B>setEffectBus</B>(<A HREF="../../../com/crickettechnology/audio/EffectBus.html" title="class in com.crickettechnology.audio">EffectBus</A>&nbsp;bus)</PRE>
+<DL>
+<DD>Sets the effect bus to which this sound's audio is sent to be processed, or
+      null for dry output (no effects).
+<P>
+<DD><DL>
+</DL>
+</DD>
+</DL>
+<HR>
+
+<A NAME="set3dEnabled(boolean)"><!-- --></A><H3>
+set3dEnabled</H3>
+<PRE>
+public void <B>set3dEnabled</B>(boolean&nbsp;enabled)</PRE>
+<DL>
+<DD>Sets whether 3D positioning is enabled.
+      If enabled, pan will be determined by the sound and listener positions,
+      ignoring the value set by setPan().  Volume will be attenuated based
+      on the sound and listener positions and the attenuation settings.
+<P>
+<DD><DL>
+</DL>
+</DD>
+</DL>
+<HR>
+
+<A NAME="is3dEnabled()"><!-- --></A><H3>
+is3dEnabled</H3>
+<PRE>
+public boolean <B>is3dEnabled</B>()</PRE>
+<DL>
+<DD>Gets whether 3D positioning is enabled.
+      If enabled, pan will be determined by the sound and listener positions,
+      ignoring the value set by setPan().  Volume will be attenuated based
+      on the sound and listener positions and the attenuation settings.
+<P>
+<DD><DL>
+</DL>
+</DD>
+</DL>
+<HR>
+
+<A NAME="set3dPosition(float, float, float)"><!-- --></A><H3>
+set3dPosition</H3>
+<PRE>
+public void <B>set3dPosition</B>(float&nbsp;x,
+                          float&nbsp;y,
+                          float&nbsp;z)</PRE>
+<DL>
+<DD>Sets the position of the sound emitter in 3D space.
+      This is used for pan and volume calculations when 3D positioning is enabled.
+<P>
+<DD><DL>
+</DL>
+</DD>
+</DL>
+<HR>
+
+<A NAME="get3dPosition(com.crickettechnology.audio.FloatRef, com.crickettechnology.audio.FloatRef, com.crickettechnology.audio.FloatRef)"><!-- --></A><H3>
+get3dPosition</H3>
+<PRE>
+public void <B>get3dPosition</B>(<A HREF="../../../com/crickettechnology/audio/FloatRef.html" title="class in com.crickettechnology.audio">FloatRef</A>&nbsp;x,
+                          <A HREF="../../../com/crickettechnology/audio/FloatRef.html" title="class in com.crickettechnology.audio">FloatRef</A>&nbsp;y,
+                          <A HREF="../../../com/crickettechnology/audio/FloatRef.html" title="class in com.crickettechnology.audio">FloatRef</A>&nbsp;z)</PRE>
+<DL>
+<DD>Gets the position of the sound emitter in 3D space.
+      This is used for pan and volume calculations when 3D positioning is enabled.
+<P>
+<DD><DL>
+</DL>
+</DD>
+</DL>
+<HR>
+
+<A NAME="set3dVelocity(float, float, float)"><!-- --></A><H3>
+set3dVelocity</H3>
+<PRE>
+public void <B>set3dVelocity</B>(float&nbsp;x,
+                          float&nbsp;y,
+                          float&nbsp;z)</PRE>
+<DL>
+<DD>Sets the velocity of the sound emitter in 3D space.
+      This is used for doppler shift calculations when 3D positioning is enabled.
+<P>
+<DD><DL>
+</DL>
+</DD>
+</DL>
+<HR>
+
+<A NAME="get3dVelocity(com.crickettechnology.audio.FloatRef, com.crickettechnology.audio.FloatRef, com.crickettechnology.audio.FloatRef)"><!-- --></A><H3>
+get3dVelocity</H3>
+<PRE>
+public void <B>get3dVelocity</B>(<A HREF="../../../com/crickettechnology/audio/FloatRef.html" title="class in com.crickettechnology.audio">FloatRef</A>&nbsp;x,
+                          <A HREF="../../../com/crickettechnology/audio/FloatRef.html" title="class in com.crickettechnology.audio">FloatRef</A>&nbsp;y,
+                          <A HREF="../../../com/crickettechnology/audio/FloatRef.html" title="class in com.crickettechnology.audio">FloatRef</A>&nbsp;z)</PRE>
+<DL>
+<DD>Gets the velocity of the sound emitter in 3D space.
+      This is used for doppler shift calculations when 3D positioning is enabled.
+<P>
+<DD><DL>
+</DL>
+</DD>
+</DL>
+<HR>
+
+<A NAME="set3dListenerPosition(float, float, float, float, float, float, float, float, float)"><!-- --></A><H3>
+set3dListenerPosition</H3>
+<PRE>
+public static void <B>set3dListenerPosition</B>(float&nbsp;eyeX,
+                                         float&nbsp;eyeY,
+                                         float&nbsp;eyeZ,
+                                         float&nbsp;lookAtX,
+                                         float&nbsp;lookAtY,
+                                         float&nbsp;lookAtZ,
+                                         float&nbsp;upX,
+                                         float&nbsp;upY,
+                                         float&nbsp;upZ)</PRE>
+<DL>
+<DD>Sets the listener position and rotation in 3D space. 
+      This is used for pan and volume calculations when 3D positioning is enabled.
+<P>
+<DD><DL>
+<DT><B>Parameters:</B><DD><CODE>eyeX</CODE> - The listener's position (x coordinate)<DD><CODE>eyeY</CODE> - The listener's position (y coordinate)<DD><CODE>eyeZ</CODE> - The listener's position (z coordinate)<DD><CODE>lookAtX</CODE> - The listener's look-at point (x coordinate)<DD><CODE>lookAtY</CODE> - The listener's look-at point (y coordinate)<DD><CODE>lookAtZ</CODE> - The listener's look-at point (z coordinate)<DD><CODE>upX</CODE> - The listener's up vector (x coordinate)<DD><CODE>upY</CODE> - The listener's up vector (y coordinate)<DD><CODE>upZ</CODE> - The listener's up vector (z coordinate)</DL>
+</DD>
+</DL>
+<HR>
+
+<A NAME="get3dListenerPosition(com.crickettechnology.audio.FloatRef, com.crickettechnology.audio.FloatRef, com.crickettechnology.audio.FloatRef, com.crickettechnology.audio.FloatRef, com.crickettechnology.audio.FloatRef, com.crickettechnology.audio.FloatRef, com.crickettechnology.audio.FloatRef, com.crickettechnology.audio.FloatRef, com.crickettechnology.audio.FloatRef)"><!-- --></A><H3>
+get3dListenerPosition</H3>
+<PRE>
+public static void <B>get3dListenerPosition</B>(<A HREF="../../../com/crickettechnology/audio/FloatRef.html" title="class in com.crickettechnology.audio">FloatRef</A>&nbsp;eyeX,
+                                         <A HREF="../../../com/crickettechnology/audio/FloatRef.html" title="class in com.crickettechnology.audio">FloatRef</A>&nbsp;eyeY,
+                                         <A HREF="../../../com/crickettechnology/audio/FloatRef.html" title="class in com.crickettechnology.audio">FloatRef</A>&nbsp;eyeZ,
+                                         <A HREF="../../../com/crickettechnology/audio/FloatRef.html" title="class in com.crickettechnology.audio">FloatRef</A>&nbsp;lookAtX,
+                                         <A HREF="../../../com/crickettechnology/audio/FloatRef.html" title="class in com.crickettechnology.audio">FloatRef</A>&nbsp;lookAtY,
+                                         <A HREF="../../../com/crickettechnology/audio/FloatRef.html" title="class in com.crickettechnology.audio">FloatRef</A>&nbsp;lookAtZ,
+                                         <A HREF="../../../com/crickettechnology/audio/FloatRef.html" title="class in com.crickettechnology.audio">FloatRef</A>&nbsp;upX,
+                                         <A HREF="../../../com/crickettechnology/audio/FloatRef.html" title="class in com.crickettechnology.audio">FloatRef</A>&nbsp;upY,
+                                         <A HREF="../../../com/crickettechnology/audio/FloatRef.html" title="class in com.crickettechnology.audio">FloatRef</A>&nbsp;upZ)</PRE>
+<DL>
+<DD>Gets the listener position and rotation in 3D space. 
+      This is used for pan and volume calculations when 3D positioning is enabled.
+<P>
+<DD><DL>
+<DT><B>Parameters:</B><DD><CODE>eyeX</CODE> - The listener's position (x coordinate)<DD><CODE>eyeY</CODE> - The listener's position (y coordinate)<DD><CODE>eyeZ</CODE> - The listener's position (z coordinate)<DD><CODE>lookAtX</CODE> - The listener's look-at point (x coordinate)<DD><CODE>lookAtY</CODE> - The listener's look-at point (y coordinate)<DD><CODE>lookAtZ</CODE> - The listener's look-at point (z coordinate)<DD><CODE>upX</CODE> - The listener's up vector (x coordinate)<DD><CODE>upY</CODE> - The listener's up vector (y coordinate)<DD><CODE>upZ</CODE> - The listener's up vector (z coordinate)</DL>
+</DD>
+</DL>
+<HR>
+
+<A NAME="set3dListenerVelocity(float, float, float)"><!-- --></A><H3>
+set3dListenerVelocity</H3>
+<PRE>
+public static void <B>set3dListenerVelocity</B>(float&nbsp;x,
+                                         float&nbsp;y,
+                                         float&nbsp;z)</PRE>
+<DL>
+<DD>Sets the listener velocity in 3D space.
+      This is used for doppler shift calculations when 3D positioning is enabled.
+<P>
+<DD><DL>
+</DL>
+</DD>
+</DL>
+<HR>
+
+<A NAME="get3dListenerVelocity(com.crickettechnology.audio.FloatRef, com.crickettechnology.audio.FloatRef, com.crickettechnology.audio.FloatRef)"><!-- --></A><H3>
+get3dListenerVelocity</H3>
+<PRE>
+public static void <B>get3dListenerVelocity</B>(<A HREF="../../../com/crickettechnology/audio/FloatRef.html" title="class in com.crickettechnology.audio">FloatRef</A>&nbsp;x,
+                                         <A HREF="../../../com/crickettechnology/audio/FloatRef.html" title="class in com.crickettechnology.audio">FloatRef</A>&nbsp;y,
+                                         <A HREF="../../../com/crickettechnology/audio/FloatRef.html" title="class in com.crickettechnology.audio">FloatRef</A>&nbsp;z)</PRE>
+<DL>
+<DD>Gets the listener velocity in 3D space.
+      This is used for doppler shift calculations when 3D positioning is enabled.
+<P>
+<DD><DL>
+</DL>
+</DD>
+</DL>
+<HR>
+
+<A NAME="set3dAttenuation(com.crickettechnology.audio.AttenuationMode, float, float, float)"><!-- --></A><H3>
+set3dAttenuation</H3>
+<PRE>
+public static void <B>set3dAttenuation</B>(<A HREF="../../../com/crickettechnology/audio/AttenuationMode.html" title="class in com.crickettechnology.audio">AttenuationMode</A>&nbsp;mode,
+                                    float&nbsp;nearDist,
+                                    float&nbsp;farDist,
+                                    float&nbsp;farVol)</PRE>
+<DL>
+<DD>Sets parameters used for 3D volume attenuation.
+<P>
+<DD><DL>
+<DT><B>Parameters:</B><DD><CODE>mode</CODE> - The attenuation mode<DD><CODE>nearDist</CODE> - The near distance; sounds closer than this distance will not be attenuated.<DD><CODE>farDist</CODE> - The far distance; sounds further than this will be at the far volume.<DD><CODE>farVol</CODE> - The far volume; sounds further than farDist will be at this volume.</DL>
+</DD>
+</DL>
+<HR>
+
+<A NAME="get3dAttenuation(com.crickettechnology.audio.ObjectRef, com.crickettechnology.audio.FloatRef, com.crickettechnology.audio.FloatRef, com.crickettechnology.audio.FloatRef)"><!-- --></A><H3>
+get3dAttenuation</H3>
+<PRE>
+public static void <B>get3dAttenuation</B>(<A HREF="../../../com/crickettechnology/audio/ObjectRef.html" title="class in com.crickettechnology.audio">ObjectRef</A>&lt;<A HREF="../../../com/crickettechnology/audio/AttenuationMode.html" title="class in com.crickettechnology.audio">AttenuationMode</A>&gt;&nbsp;mode,
+                                    <A HREF="../../../com/crickettechnology/audio/FloatRef.html" title="class in com.crickettechnology.audio">FloatRef</A>&nbsp;nearDist,
+                                    <A HREF="../../../com/crickettechnology/audio/FloatRef.html" title="class in com.crickettechnology.audio">FloatRef</A>&nbsp;farDist,
+                                    <A HREF="../../../com/crickettechnology/audio/FloatRef.html" title="class in com.crickettechnology.audio">FloatRef</A>&nbsp;farVol)</PRE>
+<DL>
+<DD>Gets parameters used for 3D volume attenuation.
+<P>
+<DD><DL>
+<DT><B>Parameters:</B><DD><CODE>mode</CODE> - The attenuation mode<DD><CODE>nearDist</CODE> - The near distance; sounds closer than this distance will not be attenuated.<DD><CODE>farDist</CODE> - The far distance; sounds further than this will be at the far volume.<DD><CODE>farVol</CODE> - The far volume; sounds further than farDist will be at this volume.</DL>
+</DD>
+</DL>
+<HR>
+
+<A NAME="set3dSoundSpeed(float)"><!-- --></A><H3>
+set3dSoundSpeed</H3>
+<PRE>
+public static void <B>set3dSoundSpeed</B>(float&nbsp;speed)</PRE>
+<DL>
+<DD>Sets the speed of sound.
+      This is used for doppler shift calculations when 3D positioning is enabled.  If no doppler
+      shift is desired, this can be set to 0 (which is the default value).
+      You may want to use the predefined constants for the speed of sound (such as 
+      SOUND_SPEED_METERS_PER_SECOND); use the constant that corresponds to
+      the unit system you are using for your velocity and position values.
+      You can also exaggerate the doppler effect by using a smaller value.
+<P>
+<DD><DL>
+</DL>
+</DD>
+</DL>
+<HR>
+
+<A NAME="get3dSoundSpeed()"><!-- --></A><H3>
+get3dSoundSpeed</H3>
+<PRE>
+public static float <B>get3dSoundSpeed</B>()</PRE>
+<DL>
+<DD>Gets the speed of sound.
+      This is used for doppler shift calculations when 3D positioning is enabled.
+<P>
+<DD><DL>
+</DL>
+</DD>
+</DL>
+<HR>
+
+<A NAME="newBankSound(com.crickettechnology.audio.Bank, int)"><!-- --></A><H3>
+newBankSound</H3>
+<PRE>
+public static <A HREF="../../../com/crickettechnology/audio/Sound.html" title="class in com.crickettechnology.audio">Sound</A> <B>newBankSound</B>(<A HREF="../../../com/crickettechnology/audio/Bank.html" title="class in com.crickettechnology.audio">Bank</A>&nbsp;bank,
+                                 int&nbsp;index)</PRE>
+<DL>
+<DD>Creates a sound from a bank.
+<P>
+<DD><DL>
+<DT><B>Parameters:</B><DD><CODE>bank</CODE> - The bank<DD><CODE>index</CODE> - Index of the sound in the bank to create
+<DT><B>Returns:</B><DD>The sound, or null if it could not be created</DL>
+</DD>
+</DL>
+<HR>
+
+<A NAME="newBankSound(com.crickettechnology.audio.Bank, java.lang.String)"><!-- --></A><H3>
+newBankSound</H3>
+<PRE>
+public static <A HREF="../../../com/crickettechnology/audio/Sound.html" title="class in com.crickettechnology.audio">Sound</A> <B>newBankSound</B>(<A HREF="../../../com/crickettechnology/audio/Bank.html" title="class in com.crickettechnology.audio">Bank</A>&nbsp;bank,
+                                 java.lang.String&nbsp;name)</PRE>
+<DL>
+<DD>Creates a sound from a bank.
+<P>
+<DD><DL>
+<DT><B>Parameters:</B><DD><CODE>bank</CODE> - The bank; if null, all loaded banks will be searched for a sound with a matching name<DD><CODE>name</CODE> - Name of the sound in the bank to create; should be 31 characters or less
+<DT><B>Returns:</B><DD>The sound, or null if it could not be created</DL>
+</DD>
+</DL>
+<HR>
+
+<A NAME="newStreamSound(java.lang.String, com.crickettechnology.audio.PathType)"><!-- --></A><H3>
+newStreamSound</H3>
+<PRE>
+public static <A HREF="../../../com/crickettechnology/audio/Sound.html" title="class in com.crickettechnology.audio">Sound</A> <B>newStreamSound</B>(java.lang.String&nbsp;filename,
+                                   <A HREF="../../../com/crickettechnology/audio/PathType.html" title="class in com.crickettechnology.audio">PathType</A>&nbsp;pathType)</PRE>
+<DL>
+<DD>Creates a streaming sound.
+<P>
+<DD><DL>
+<DT><B>Parameters:</B><DD><CODE>filename</CODE> - Path to the file to stream.<DD><CODE>pathType</CODE> - Indicates how the path is to be interpreted.
+<DT><B>Returns:</B><DD>The sound, or null if it could not be created</DL>
+</DD>
+</DL>
+<HR>
+
+<A NAME="newStreamSound(java.lang.String)"><!-- --></A><H3>
+newStreamSound</H3>
+<PRE>
+public static <A HREF="../../../com/crickettechnology/audio/Sound.html" title="class in com.crickettechnology.audio">Sound</A> <B>newStreamSound</B>(java.lang.String&nbsp;filename)</PRE>
+<DL>
+<DD>Creates a streaming sound from an asset in the .apk.
+      Equivalent to newStreamSound(filename, PathType.Asset).
+<P>
+<DD><DL>
+<DT><B>Parameters:</B><DD><CODE>filename</CODE> - Path to the file to stream.
+<DT><B>Returns:</B><DD>The sound, or null if it could not be created</DL>
+</DD>
+</DL>
+<HR>
+
+<A NAME="newNetworkStreamSound(java.lang.String)"><!-- --></A><H3>
+newNetworkStreamSound</H3>
+<PRE>
+public static <A HREF="../../../com/crickettechnology/audio/Sound.html" title="class in com.crickettechnology.audio">Sound</A> <B>newNetworkStreamSound</B>(java.lang.String&nbsp;url)</PRE>
+<DL>
+<DD>Creates an HTTP network streaming sound
+<P>
+<DD><DL>
+<DT><B>Parameters:</B><DD><CODE>url</CODE> - URL of the file to play
+<DT><B>Returns:</B><DD>The sound, or null if it could not be created</DL>
+</DD>
+</DL>
+<HR>
+
+<A NAME="destroy()"><!-- --></A><H3>
+destroy</H3>
+<PRE>
+public void <B>destroy</B>()</PRE>
+<DL>
+<DD>Destroy this object.
+      This is called when the object is finalized by the garbage collector; however, it is better to call it explicitly, so the object is destroyed predictably.
+<P>
+<DD><DL>
+</DL>
+</DD>
+</DL>
+<!-- ========= END OF CLASS DATA ========= -->
+<HR>
+
+
+<!-- ======= START OF BOTTOM NAVBAR ====== -->
+<A NAME="navbar_bottom"><!-- --></A>
+<A HREF="#skip-navbar_bottom" title="Skip navigation links"></A>
+<TABLE BORDER="0" WIDTH="100%" CELLPADDING="1" CELLSPACING="0" SUMMARY="">
+<TR>
+<TD COLSPAN=2 BGCOLOR="#EEEEFF" CLASS="NavBarCell1">
+<A NAME="navbar_bottom_firstrow"><!-- --></A>
+<TABLE BORDER="0" CELLPADDING="0" CELLSPACING="3" SUMMARY="">
+  <TR ALIGN="center" VALIGN="top">
+  <TD BGCOLOR="#EEEEFF" CLASS="NavBarCell1">    <A HREF="../../../com/crickettechnology/audio/package-summary.html"><FONT CLASS="NavBarFont1"><B>Package</B></FONT></A>&nbsp;</TD>
+  <TD BGCOLOR="#FFFFFF" CLASS="NavBarCell1Rev"> &nbsp;<FONT CLASS="NavBarFont1Rev"><B>Class</B></FONT>&nbsp;</TD>
+  <TD BGCOLOR="#EEEEFF" CLASS="NavBarCell1">    <A HREF="package-tree.html"><FONT CLASS="NavBarFont1"><B>Tree</B></FONT></A>&nbsp;</TD>
+  <TD BGCOLOR="#EEEEFF" CLASS="NavBarCell1">    <A HREF="../../../deprecated-list.html"><FONT CLASS="NavBarFont1"><B>Deprecated</B></FONT></A>&nbsp;</TD>
+  <TD BGCOLOR="#EEEEFF" CLASS="NavBarCell1">    <A HREF="../../../index-all.html"><FONT CLASS="NavBarFont1"><B>Index</B></FONT></A>&nbsp;</TD>
+  <TD BGCOLOR="#EEEEFF" CLASS="NavBarCell1">    <A HREF="../../../help-doc.html"><FONT CLASS="NavBarFont1"><B>Help</B></FONT></A>&nbsp;</TD>
+  </TR>
+</TABLE>
+</TD>
+<TD ALIGN="right" VALIGN="top" ROWSPAN=3><EM>
+</EM>
+</TD>
+</TR>
+
+<TR>
+<TD BGCOLOR="white" CLASS="NavBarCell2"><FONT SIZE="-2">
+&nbsp;<A HREF="../../../com/crickettechnology/audio/PathType.html" title="class in com.crickettechnology.audio"><B>PREV CLASS</B></A>&nbsp;
+&nbsp;NEXT CLASS</FONT></TD>
+<TD BGCOLOR="white" CLASS="NavBarCell2"><FONT SIZE="-2">
+  <A HREF="../../../index.html?com/crickettechnology/audio/Sound.html" target="_top"><B>FRAMES</B></A>  &nbsp;
+&nbsp;<A HREF="Sound.html" target="_top"><B>NO FRAMES</B></A>  &nbsp;
+&nbsp;<SCRIPT type="text/javascript">
+  <!--
+  if(window==top) {
+    document.writeln('<A HREF="../../../allclasses-noframe.html"><B>All Classes</B></A>');
+  }
+  //-->
+</SCRIPT>
+<NOSCRIPT>
+  <A HREF="../../../allclasses-noframe.html"><B>All Classes</B></A>
+</NOSCRIPT>
+
+
+</FONT></TD>
+</TR>
+<TR>
+<TD VALIGN="top" CLASS="NavBarCell3"><FONT SIZE="-2">
+  SUMMARY:&nbsp;NESTED&nbsp;|&nbsp;<A HREF="#field_summary">FIELD</A>&nbsp;|&nbsp;CONSTR&nbsp;|&nbsp;<A HREF="#method_summary">METHOD</A></FONT></TD>
+<TD VALIGN="top" CLASS="NavBarCell3"><FONT SIZE="-2">
+DETAIL:&nbsp;<A HREF="#field_detail">FIELD</A>&nbsp;|&nbsp;CONSTR&nbsp;|&nbsp;<A HREF="#method_detail">METHOD</A></FONT></TD>
+</TR>
+</TABLE>
+<A NAME="skip-navbar_bottom"></A>
+<!-- ======== END OF BOTTOM NAVBAR ======= -->
+
+<HR>
+
+</BODY>
+</HTML>

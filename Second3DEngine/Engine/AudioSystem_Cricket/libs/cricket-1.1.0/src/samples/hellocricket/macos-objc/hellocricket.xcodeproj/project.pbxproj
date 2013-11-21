@@ -1,0 +1,338 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AA1819F613985FEE0099CEAC /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA1819F513985FEE0099CEAC /* Cocoa.framework */; };
+		AA181A0013985FEE0099CEAC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AA1819FE13985FEE0099CEAC /* InfoPlist.strings */; };
+		AA181A0313985FEE0099CEAC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AA181A0213985FEE0099CEAC /* main.m */; };
+		AA181A0613985FEE0099CEAC /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = AA181A0413985FEE0099CEAC /* Credits.rtf */; };
+		AA181A0913985FEE0099CEAC /* hellocricketAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AA181A0813985FEE0099CEAC /* hellocricketAppDelegate.m */; };
+		AA181A0C13985FEF0099CEAC /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = AA181A0A13985FEF0099CEAC /* MainMenu.xib */; };
+		AA181A1C13989AAC0099CEAC /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA181A1B13989AAC0099CEAC /* AudioToolbox.framework */; };
+		AA181A1E13989AB60099CEAC /* AudioUnit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA181A1D13989AB60099CEAC /* AudioUnit.framework */; };
+		AA181A3113989C150099CEAC /* hellocricket.ckb in Resources */ = {isa = PBXBuildFile; fileRef = AA181A3013989C150099CEAC /* hellocricket.ckb */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AA1819F113985FEE0099CEAC /* hellocricket.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = hellocricket.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA1819F513985FEE0099CEAC /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		AA1819F813985FEE0099CEAC /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		AA1819F913985FEE0099CEAC /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		AA1819FA13985FEE0099CEAC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		AA1819FD13985FEE0099CEAC /* hellocricket-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "hellocricket-Info.plist"; sourceTree = "<group>"; };
+		AA1819FF13985FEE0099CEAC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		AA181A0113985FEE0099CEAC /* hellocricket-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "hellocricket-Prefix.pch"; sourceTree = "<group>"; };
+		AA181A0213985FEE0099CEAC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AA181A0513985FEE0099CEAC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		AA181A0713985FEE0099CEAC /* hellocricketAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = hellocricketAppDelegate.h; sourceTree = "<group>"; };
+		AA181A0813985FEE0099CEAC /* hellocricketAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = hellocricketAppDelegate.m; sourceTree = "<group>"; };
+		AA181A0B13985FEF0099CEAC /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		AA181A1B13989AAC0099CEAC /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		AA181A1D13989AB60099CEAC /* AudioUnit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioUnit.framework; path = System/Library/Frameworks/AudioUnit.framework; sourceTree = SDKROOT; };
+		AA181A3013989C150099CEAC /* hellocricket.ckb */ = {isa = PBXFileReference; lastKnownFileType = file; path = hellocricket.ckb; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AA1819EE13985FEE0099CEAC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA181A1E13989AB60099CEAC /* AudioUnit.framework in Frameworks */,
+				AA181A1C13989AAC0099CEAC /* AudioToolbox.framework in Frameworks */,
+				AA1819F613985FEE0099CEAC /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AA1819E613985FED0099CEAC = {
+			isa = PBXGroup;
+			children = (
+				AA1819FB13985FEE0099CEAC /* hellocricket */,
+				AA1819F413985FEE0099CEAC /* Frameworks */,
+				AA1819F213985FEE0099CEAC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AA1819F213985FEE0099CEAC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AA1819F113985FEE0099CEAC /* hellocricket.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AA1819F413985FEE0099CEAC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AA181A1D13989AB60099CEAC /* AudioUnit.framework */,
+				AA181A1B13989AAC0099CEAC /* AudioToolbox.framework */,
+				AA1819F513985FEE0099CEAC /* Cocoa.framework */,
+				AA1819F713985FEE0099CEAC /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AA1819F713985FEE0099CEAC /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AA1819F813985FEE0099CEAC /* AppKit.framework */,
+				AA1819F913985FEE0099CEAC /* CoreData.framework */,
+				AA1819FA13985FEE0099CEAC /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		AA1819FB13985FEE0099CEAC /* hellocricket */ = {
+			isa = PBXGroup;
+			children = (
+				AA181A3013989C150099CEAC /* hellocricket.ckb */,
+				AA181A0713985FEE0099CEAC /* hellocricketAppDelegate.h */,
+				AA181A0813985FEE0099CEAC /* hellocricketAppDelegate.m */,
+				AA181A0A13985FEF0099CEAC /* MainMenu.xib */,
+				AA1819FC13985FEE0099CEAC /* Supporting Files */,
+			);
+			path = hellocricket;
+			sourceTree = "<group>";
+		};
+		AA1819FC13985FEE0099CEAC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AA1819FD13985FEE0099CEAC /* hellocricket-Info.plist */,
+				AA1819FE13985FEE0099CEAC /* InfoPlist.strings */,
+				AA181A0113985FEE0099CEAC /* hellocricket-Prefix.pch */,
+				AA181A0213985FEE0099CEAC /* main.m */,
+				AA181A0413985FEE0099CEAC /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AA1819F013985FEE0099CEAC /* hellocricket */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA181A0F13985FEF0099CEAC /* Build configuration list for PBXNativeTarget "hellocricket" */;
+			buildPhases = (
+				AA181A2F13989BD70099CEAC /* ShellScript */,
+				AA1819ED13985FEE0099CEAC /* Sources */,
+				AA1819EE13985FEE0099CEAC /* Frameworks */,
+				AA1819EF13985FEE0099CEAC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = hellocricket;
+			productName = hellocricket;
+			productReference = AA1819F113985FEE0099CEAC /* hellocricket.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AA1819E813985FED0099CEAC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+			};
+			buildConfigurationList = AA1819EB13985FED0099CEAC /* Build configuration list for PBXProject "hellocricket" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = AA1819E613985FED0099CEAC;
+			productRefGroup = AA1819F213985FEE0099CEAC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AA1819F013985FEE0099CEAC /* hellocricket */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AA1819EF13985FEE0099CEAC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA181A0013985FEE0099CEAC /* InfoPlist.strings in Resources */,
+				AA181A0613985FEE0099CEAC /* Credits.rtf in Resources */,
+				AA181A0C13985FEF0099CEAC /* MainMenu.xib in Resources */,
+				AA181A3113989C150099CEAC /* hellocricket.ckb in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		AA181A2F13989BD70099CEAC /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "../../../../bin/macosx/cktool buildbank ../common/hellocricket.ckbx hellocricket.ckb";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AA1819ED13985FEE0099CEAC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA181A0313985FEE0099CEAC /* main.m in Sources */,
+				AA181A0913985FEE0099CEAC /* hellocricketAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AA1819FE13985FEE0099CEAC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AA1819FF13985FEE0099CEAC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		AA181A0413985FEE0099CEAC /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AA181A0513985FEE0099CEAC /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		AA181A0A13985FEF0099CEAC /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AA181A0B13985FEF0099CEAC /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AA181A0D13985FEF0099CEAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		AA181A0E13985FEF0099CEAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		AA181A1013985FEF0099CEAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "hellocricket/hellocricket-Prefix.pch";
+				HEADER_SEARCH_PATHS = ../../../../inc;
+				INFOPLIST_FILE = "hellocricket/hellocricket-Info.plist";
+				LIBRARY_SEARCH_PATHS = "../../../../lib/${PLATFORM_NAME}/${CONFIGURATION}";
+				OTHER_LDFLAGS = "-lck";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		AA181A1113985FEF0099CEAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "hellocricket/hellocricket-Prefix.pch";
+				HEADER_SEARCH_PATHS = ../../../../inc;
+				INFOPLIST_FILE = "hellocricket/hellocricket-Info.plist";
+				LIBRARY_SEARCH_PATHS = "../../../../lib/${PLATFORM_NAME}/${CONFIGURATION}";
+				OTHER_LDFLAGS = "-lck";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AA1819EB13985FED0099CEAC /* Build configuration list for PBXProject "hellocricket" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA181A0D13985FEF0099CEAC /* Debug */,
+				AA181A0E13985FEF0099CEAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA181A0F13985FEF0099CEAC /* Build configuration list for PBXNativeTarget "hellocricket" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA181A1013985FEF0099CEAC /* Debug */,
+				AA181A1113985FEF0099CEAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AA1819E813985FED0099CEAC /* Project object */;
+}

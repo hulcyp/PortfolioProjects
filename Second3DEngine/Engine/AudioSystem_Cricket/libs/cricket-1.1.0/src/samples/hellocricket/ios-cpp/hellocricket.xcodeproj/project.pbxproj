@@ -1,0 +1,366 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AA00431B16E512D7008FF196 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AA00431A16E512D7008FF196 /* Default-568h@2x.png */; };
+		AA09327C13403DE800BA3BC5 /* hellocricket.ckb in Resources */ = {isa = PBXBuildFile; fileRef = AA09327B13403DE800BA3BC5 /* hellocricket.ckb */; };
+		AA1CE6B8133EEFD40030FB70 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA1CE6B7133EEFD40030FB70 /* UIKit.framework */; };
+		AA1CE6BA133EEFD40030FB70 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA1CE6B9133EEFD40030FB70 /* Foundation.framework */; };
+		AA1CE6BC133EEFD40030FB70 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA1CE6BB133EEFD40030FB70 /* CoreGraphics.framework */; };
+		AA1CE6C2133EEFD40030FB70 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AA1CE6C0133EEFD40030FB70 /* InfoPlist.strings */; };
+		AA1CE6C5133EEFD40030FB70 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AA1CE6C4133EEFD40030FB70 /* main.m */; };
+		AA1CE6C8133EEFD40030FB70 /* hellocricketAppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = AA1CE6C7133EEFD40030FB70 /* hellocricketAppDelegate.mm */; };
+		AA1CE6CC133EEFD40030FB70 /* hellocricketAppDelegate_iPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = AA1CE6CB133EEFD40030FB70 /* hellocricketAppDelegate_iPhone.m */; };
+		AA1CE6CF133EEFD40030FB70 /* MainWindow_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = AA1CE6CD133EEFD40030FB70 /* MainWindow_iPhone.xib */; };
+		AA1CE6D3133EEFD40030FB70 /* hellocricketAppDelegate_iPad.m in Sources */ = {isa = PBXBuildFile; fileRef = AA1CE6D2133EEFD40030FB70 /* hellocricketAppDelegate_iPad.m */; };
+		AA1CE6D6133EEFD40030FB70 /* MainWindow_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = AA1CE6D4133EEFD40030FB70 /* MainWindow_iPad.xib */; };
+		AA1CE6EE133EF45D0030FB70 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA1CE6ED133EF45D0030FB70 /* AudioToolbox.framework */; };
+		AA8F6B861520E21800E53BED /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA8F6B851520E21800E53BED /* CoreMedia.framework */; };
+		AA8F6B881520E23800E53BED /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA8F6B871520E23800E53BED /* AVFoundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AA00431A16E512D7008FF196 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		AA09327B13403DE800BA3BC5 /* hellocricket.ckb */ = {isa = PBXFileReference; lastKnownFileType = file; path = hellocricket.ckb; sourceTree = "<group>"; };
+		AA1CE6B3133EEFD40030FB70 /* hellocricket.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = hellocricket.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA1CE6B7133EEFD40030FB70 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		AA1CE6B9133EEFD40030FB70 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		AA1CE6BB133EEFD40030FB70 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		AA1CE6BF133EEFD40030FB70 /* hellocricket-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "hellocricket-Info.plist"; sourceTree = "<group>"; };
+		AA1CE6C1133EEFD40030FB70 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		AA1CE6C3133EEFD40030FB70 /* hellocricket-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "hellocricket-Prefix.pch"; sourceTree = "<group>"; };
+		AA1CE6C4133EEFD40030FB70 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AA1CE6C6133EEFD40030FB70 /* hellocricketAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = hellocricketAppDelegate.h; sourceTree = "<group>"; };
+		AA1CE6C7133EEFD40030FB70 /* hellocricketAppDelegate.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = hellocricketAppDelegate.mm; sourceTree = "<group>"; };
+		AA1CE6CA133EEFD40030FB70 /* hellocricketAppDelegate_iPhone.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = hellocricketAppDelegate_iPhone.h; path = iPhone/hellocricketAppDelegate_iPhone.h; sourceTree = "<group>"; };
+		AA1CE6CB133EEFD40030FB70 /* hellocricketAppDelegate_iPhone.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = hellocricketAppDelegate_iPhone.m; path = iPhone/hellocricketAppDelegate_iPhone.m; sourceTree = "<group>"; };
+		AA1CE6CE133EEFD40030FB70 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = iPhone/en.lproj/MainWindow_iPhone.xib; sourceTree = "<group>"; };
+		AA1CE6D1133EEFD40030FB70 /* hellocricketAppDelegate_iPad.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = hellocricketAppDelegate_iPad.h; path = iPad/hellocricketAppDelegate_iPad.h; sourceTree = "<group>"; };
+		AA1CE6D2133EEFD40030FB70 /* hellocricketAppDelegate_iPad.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = hellocricketAppDelegate_iPad.m; path = iPad/hellocricketAppDelegate_iPad.m; sourceTree = "<group>"; };
+		AA1CE6D5133EEFD40030FB70 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = iPad/en.lproj/MainWindow_iPad.xib; sourceTree = "<group>"; };
+		AA1CE6ED133EF45D0030FB70 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		AA8F6B851520E21800E53BED /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		AA8F6B871520E23800E53BED /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AA1CE6B0133EEFD40030FB70 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA8F6B881520E23800E53BED /* AVFoundation.framework in Frameworks */,
+				AA8F6B861520E21800E53BED /* CoreMedia.framework in Frameworks */,
+				AA1CE6EE133EF45D0030FB70 /* AudioToolbox.framework in Frameworks */,
+				AA1CE6B8133EEFD40030FB70 /* UIKit.framework in Frameworks */,
+				AA1CE6BA133EEFD40030FB70 /* Foundation.framework in Frameworks */,
+				AA1CE6BC133EEFD40030FB70 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AA1CE6A8133EEFD40030FB70 = {
+			isa = PBXGroup;
+			children = (
+				AA00431A16E512D7008FF196 /* Default-568h@2x.png */,
+				AA09327B13403DE800BA3BC5 /* hellocricket.ckb */,
+				AA1CE6BD133EEFD40030FB70 /* hellocricket */,
+				AA1CE6B6133EEFD40030FB70 /* Frameworks */,
+				AA1CE6B4133EEFD40030FB70 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AA1CE6B4133EEFD40030FB70 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AA1CE6B3133EEFD40030FB70 /* hellocricket.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AA1CE6B6133EEFD40030FB70 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AA8F6B871520E23800E53BED /* AVFoundation.framework */,
+				AA8F6B851520E21800E53BED /* CoreMedia.framework */,
+				AA1CE6ED133EF45D0030FB70 /* AudioToolbox.framework */,
+				AA1CE6B7133EEFD40030FB70 /* UIKit.framework */,
+				AA1CE6B9133EEFD40030FB70 /* Foundation.framework */,
+				AA1CE6BB133EEFD40030FB70 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AA1CE6BD133EEFD40030FB70 /* hellocricket */ = {
+			isa = PBXGroup;
+			children = (
+				AA1CE6C6133EEFD40030FB70 /* hellocricketAppDelegate.h */,
+				AA1CE6C7133EEFD40030FB70 /* hellocricketAppDelegate.mm */,
+				AA1CE6C9133EEFD40030FB70 /* iPhone */,
+				AA1CE6D0133EEFD40030FB70 /* iPad */,
+				AA1CE6BE133EEFD40030FB70 /* Supporting Files */,
+			);
+			path = hellocricket;
+			sourceTree = "<group>";
+		};
+		AA1CE6BE133EEFD40030FB70 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AA1CE6BF133EEFD40030FB70 /* hellocricket-Info.plist */,
+				AA1CE6C0133EEFD40030FB70 /* InfoPlist.strings */,
+				AA1CE6C3133EEFD40030FB70 /* hellocricket-Prefix.pch */,
+				AA1CE6C4133EEFD40030FB70 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AA1CE6C9133EEFD40030FB70 /* iPhone */ = {
+			isa = PBXGroup;
+			children = (
+				AA1CE6CA133EEFD40030FB70 /* hellocricketAppDelegate_iPhone.h */,
+				AA1CE6CB133EEFD40030FB70 /* hellocricketAppDelegate_iPhone.m */,
+				AA1CE6CD133EEFD40030FB70 /* MainWindow_iPhone.xib */,
+			);
+			name = iPhone;
+			sourceTree = "<group>";
+		};
+		AA1CE6D0133EEFD40030FB70 /* iPad */ = {
+			isa = PBXGroup;
+			children = (
+				AA1CE6D1133EEFD40030FB70 /* hellocricketAppDelegate_iPad.h */,
+				AA1CE6D2133EEFD40030FB70 /* hellocricketAppDelegate_iPad.m */,
+				AA1CE6D4133EEFD40030FB70 /* MainWindow_iPad.xib */,
+			);
+			name = iPad;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AA1CE6B2133EEFD40030FB70 /* hellocricket */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA1CE6D9133EEFD40030FB70 /* Build configuration list for PBXNativeTarget "hellocricket" */;
+			buildPhases = (
+				AA09327A13403D1200BA3BC5 /* ShellScript */,
+				AA1CE6AF133EEFD40030FB70 /* Sources */,
+				AA1CE6B0133EEFD40030FB70 /* Frameworks */,
+				AA1CE6B1133EEFD40030FB70 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = hellocricket;
+			productName = hellocricket;
+			productReference = AA1CE6B3133EEFD40030FB70 /* hellocricket.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AA1CE6AA133EEFD40030FB70 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = AA1CE6AD133EEFD40030FB70 /* Build configuration list for PBXProject "hellocricket" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = AA1CE6A8133EEFD40030FB70;
+			productRefGroup = AA1CE6B4133EEFD40030FB70 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AA1CE6B2133EEFD40030FB70 /* hellocricket */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AA1CE6B1133EEFD40030FB70 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA1CE6C2133EEFD40030FB70 /* InfoPlist.strings in Resources */,
+				AA1CE6CF133EEFD40030FB70 /* MainWindow_iPhone.xib in Resources */,
+				AA1CE6D6133EEFD40030FB70 /* MainWindow_iPad.xib in Resources */,
+				AA09327C13403DE800BA3BC5 /* hellocricket.ckb in Resources */,
+				AA00431B16E512D7008FF196 /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		AA09327A13403D1200BA3BC5 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "../../../../bin/macosx/cktool buildbank ../common/hellocricket.ckbx hellocricket.ckb";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AA1CE6AF133EEFD40030FB70 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA1CE6C5133EEFD40030FB70 /* main.m in Sources */,
+				AA1CE6C8133EEFD40030FB70 /* hellocricketAppDelegate.mm in Sources */,
+				AA1CE6CC133EEFD40030FB70 /* hellocricketAppDelegate_iPhone.m in Sources */,
+				AA1CE6D3133EEFD40030FB70 /* hellocricketAppDelegate_iPad.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AA1CE6C0133EEFD40030FB70 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AA1CE6C1133EEFD40030FB70 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		AA1CE6CD133EEFD40030FB70 /* MainWindow_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AA1CE6CE133EEFD40030FB70 /* en */,
+			);
+			name = MainWindow_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		AA1CE6D4133EEFD40030FB70 /* MainWindow_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AA1CE6D5133EEFD40030FB70 /* en */,
+			);
+			name = MainWindow_iPad.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AA1CE6D7133EEFD40030FB70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					"$(ARCHS_STANDARD_32_BIT)",
+					armv6,
+				);
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_THUMB_SUPPORT = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AA1CE6D8133EEFD40030FB70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					"$(ARCHS_STANDARD_32_BIT)",
+					armv6,
+				);
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_THUMB_SUPPORT = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AA1CE6DA133EEFD40030FB70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "hellocricket/hellocricket-Prefix.pch";
+				GCC_THUMB_SUPPORT = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				HEADER_SEARCH_PATHS = ../../../../inc;
+				INFOPLIST_FILE = "hellocricket/hellocricket-Info.plist";
+				LIBRARY_SEARCH_PATHS = "../../../../lib/ios/${CONFIGURATION}";
+				OTHER_LDFLAGS = "-lck";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		AA1CE6DB133EEFD40030FB70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "hellocricket/hellocricket-Prefix.pch";
+				GCC_THUMB_SUPPORT = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				HEADER_SEARCH_PATHS = ../../../../inc;
+				INFOPLIST_FILE = "hellocricket/hellocricket-Info.plist";
+				LIBRARY_SEARCH_PATHS = "../../../../lib/ios/${CONFIGURATION}";
+				OTHER_LDFLAGS = "-lck";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AA1CE6AD133EEFD40030FB70 /* Build configuration list for PBXProject "hellocricket" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA1CE6D7133EEFD40030FB70 /* Debug */,
+				AA1CE6D8133EEFD40030FB70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA1CE6D9133EEFD40030FB70 /* Build configuration list for PBXNativeTarget "hellocricket" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA1CE6DA133EEFD40030FB70 /* Debug */,
+				AA1CE6DB133EEFD40030FB70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AA1CE6AA133EEFD40030FB70 /* Project object */;
+}

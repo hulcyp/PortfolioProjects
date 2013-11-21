@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="prebuild" default="prebuild" basedir=".">
+
+    <property name="ck_root" value="../../../.."/>
+
+    <import file="${ck_root}/build/android/build-bank.xml"/>
+
+    <target name="prebuild">
+        <antcall target="build-bank">
+           <param name="input" value="../common/hellocricket.ckbx"/>
+           <param name="output" value="assets/hellocricket.ckb"/>
+        </antcall>
+    </target>
+
+</project>
+
+
+
+
+
+
+
+

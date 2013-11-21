@@ -1,0 +1,25 @@
+<Materials>
+  <Material name="SimpleColorMaterial" shaderProgram="simpleShader" >
+    
+    <Uniform name="uUseDiffuseMap" type="int">0</Uniform>
+  </Material>
+
+  <Material name="simpleMaterial" shaderProgram="simpleShader" >
+    <Uniform name="uUseDiffuseMap" type="int">0</Uniform>
+  </Material>
+
+  <Material name="DebugMaterial" shaderProgram="DebugShader" >
+      <Uniform name="uAlpha" type="float" >1.0</Uniform>
+      <Uniform name="uColor" type="vec3f" >1,1,1</Uniform>
+  </Material>
+
+  <Material name="AudioSymbolMat" shaderProgram="simpleShader" >
+    <Uniform name="uUseDiffuseMap" type="int">1</Uniform>
+    <Uniform name="uDiffuseMap" type="texture">AudioSymbol</Uniform>
+  </Material>
+
+  <Material name="SoundWaveSphereMat" shaderProgram="VariableAlphaShader" >
+    <Uniform name="uUseDiffuseMap" type="int">0</Uniform>
+    <Uniform name="uAlpha" type="float">0.5</Uniform>
+  </Material>
+</Materials>

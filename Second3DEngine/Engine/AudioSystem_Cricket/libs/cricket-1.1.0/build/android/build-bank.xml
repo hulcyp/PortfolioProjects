@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+
+    <!-- ant build target to build a bank using cktool -->
+
+    <!-- choose the right cktool for the platform -->
+    <condition property="cktool" value="${ck_root}/bin/macosx/cktool">
+        <os family="mac"/>
+    </condition>
+    <condition property="cktool" value="${ck_root}/bin/win7/Win32/cktool.exe">
+        <os family="windows"/>
+    </condition>
+
+    <!-- build the bank -->
+    <target name="build-bank">
+        <exec executable="${cktool}">
+            <arg value="buildbank"/>
+            <arg value="${input}"/>
+            <arg value="${output}"/>
+        </exec>
+    </target>
+
+</project>
+

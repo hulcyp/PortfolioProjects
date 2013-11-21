@@ -1,0 +1,234 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\DSPs">
+      <UniqueIdentifier>{b88107ba-39cb-48ac-9278-77ae7f2de8c3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\DSPs">
+      <UniqueIdentifier>{b4f02905-fd0d-444a-af02-2bdf098ed386}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Occlusion">
+      <UniqueIdentifier>{0494b3b0-7205-4212-ab84-77a0dc5dc904}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Occlusion">
+      <UniqueIdentifier>{48302cee-5cba-4bb7-9953-45f64ae6b952}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\DSPs\CustomDSPs">
+      <UniqueIdentifier>{769b6665-b4db-452d-b777-4d0115eb1f2a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\DSPs\CustomDSPs">
+      <UniqueIdentifier>{31c58f42-b23d-42aa-8aed-7e53a9afe14a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Fmod Impl">
+      <UniqueIdentifier>{7ac29fbf-0d0a-4a85-bc91-8352f98b20df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Fmod Impl">
+      <UniqueIdentifier>{ce906ef9-e300-4625-9ff5-648e1f57a334}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AudioSystem.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundCue.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ASErrorHandling.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AudioSystemImpl.h">
+      <Filter>Header Files\Fmod Impl</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundCueImpl.h">
+      <Filter>Header Files\Fmod Impl</Filter>
+    </ClInclude>
+    <ClInclude Include="Sound.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundImpl.h">
+      <Filter>Header Files\Fmod Impl</Filter>
+    </ClInclude>
+    <ClInclude Include="DSP.h">
+      <Filter>Header Files\DSPs</Filter>
+    </ClInclude>
+    <ClInclude Include="DSPImpl.h">
+      <Filter>Header Files\DSPs</Filter>
+    </ClInclude>
+    <ClInclude Include="OscillatorDSP.h">
+      <Filter>Header Files\DSPs</Filter>
+    </ClInclude>
+    <ClInclude Include="LowPassDSP.h">
+      <Filter>Header Files\DSPs</Filter>
+    </ClInclude>
+    <ClInclude Include="HighPassDSP.h">
+      <Filter>Header Files\DSPs</Filter>
+    </ClInclude>
+    <ClInclude Include="EchoDSP.h">
+      <Filter>Header Files\DSPs</Filter>
+    </ClInclude>
+    <ClInclude Include="DelayDSP.h">
+      <Filter>Header Files\DSPs</Filter>
+    </ClInclude>
+    <ClInclude Include="FlangeDSP.h">
+      <Filter>Header Files\DSPs</Filter>
+    </ClInclude>
+    <ClInclude Include="TremoloDSP.h">
+      <Filter>Header Files\DSPs</Filter>
+    </ClInclude>
+    <ClInclude Include="DistortionDSP.h">
+      <Filter>Header Files\DSPs</Filter>
+    </ClInclude>
+    <ClInclude Include="NormalizeDSP.h">
+      <Filter>Header Files\DSPs</Filter>
+    </ClInclude>
+    <ClInclude Include="ParameqDSP.h">
+      <Filter>Header Files\DSPs</Filter>
+    </ClInclude>
+    <ClInclude Include="PitchShiftDSP.h">
+      <Filter>Header Files\DSPs</Filter>
+    </ClInclude>
+    <ClInclude Include="ChorusDSP.h">
+      <Filter>Header Files\DSPs</Filter>
+    </ClInclude>
+    <ClInclude Include="CompressorDSP.h">
+      <Filter>Header Files\DSPs</Filter>
+    </ClInclude>
+    <ClInclude Include="SFXReverbDSP.h">
+      <Filter>Header Files\DSPs</Filter>
+    </ClInclude>
+    <ClInclude Include="ASGeometry.h">
+      <Filter>Header Files\Occlusion</Filter>
+    </ClInclude>
+    <ClInclude Include="ASGeometryImpl.h">
+      <Filter>Header Files\Occlusion</Filter>
+    </ClInclude>
+    <ClInclude Include="CustomDSP.h">
+      <Filter>Header Files\DSPs\CustomDSPs</Filter>
+    </ClInclude>
+    <ClInclude Include="CustomDSPImpl.h">
+      <Filter>Header Files\DSPs\CustomDSPs</Filter>
+    </ClInclude>
+    <ClInclude Include="MonkyReverbDSP.h">
+      <Filter>Header Files\DSPs\CustomDSPs</Filter>
+    </ClInclude>
+    <ClInclude Include="MonkyReverbDSPImpl.h">
+      <Filter>Header Files\DSPs\CustomDSPs</Filter>
+    </ClInclude>
+    <ClInclude Include="ReverbArea.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ReverbAreaImpl.h">
+      <Filter>Header Files\Fmod Impl</Filter>
+    </ClInclude>
+    <ClInclude Include="ReverbAreaProperties.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="AudioSystem.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ASErrorHandling.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundCue.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AudioSystemImpl.cpp">
+      <Filter>Source Files\Fmod Impl</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundCueImpl.cpp">
+      <Filter>Source Files\Fmod Impl</Filter>
+    </ClCompile>
+    <ClCompile Include="Sound.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundImpl.cpp">
+      <Filter>Source Files\Fmod Impl</Filter>
+    </ClCompile>
+    <ClCompile Include="DSPImpl.cpp">
+      <Filter>Source Files\DSPs</Filter>
+    </ClCompile>
+    <ClCompile Include="DSP.cpp">
+      <Filter>Source Files\DSPs</Filter>
+    </ClCompile>
+    <ClCompile Include="OscillatorDSP.cpp">
+      <Filter>Source Files\DSPs</Filter>
+    </ClCompile>
+    <ClCompile Include="LowPassDSP.cpp">
+      <Filter>Source Files\DSPs</Filter>
+    </ClCompile>
+    <ClCompile Include="HighPassDSP.cpp">
+      <Filter>Source Files\DSPs</Filter>
+    </ClCompile>
+    <ClCompile Include="EchoDSP.cpp">
+      <Filter>Source Files\DSPs</Filter>
+    </ClCompile>
+    <ClCompile Include="DelayDSP.cpp">
+      <Filter>Source Files\DSPs</Filter>
+    </ClCompile>
+    <ClCompile Include="FlangeDSP.cpp">
+      <Filter>Source Files\DSPs</Filter>
+    </ClCompile>
+    <ClCompile Include="Tremolo.cpp">
+      <Filter>Source Files\DSPs</Filter>
+    </ClCompile>
+    <ClCompile Include="DistortionDSP.cpp">
+      <Filter>Source Files\DSPs</Filter>
+    </ClCompile>
+    <ClCompile Include="NormalizeDSP.cpp">
+      <Filter>Source Files\DSPs</Filter>
+    </ClCompile>
+    <ClCompile Include="ParameqDSP.cpp">
+      <Filter>Source Files\DSPs</Filter>
+    </ClCompile>
+    <ClCompile Include="PitchShiftDSP.cpp">
+      <Filter>Source Files\DSPs</Filter>
+    </ClCompile>
+    <ClCompile Include="ChorusDSP.cpp">
+      <Filter>Source Files\DSPs</Filter>
+    </ClCompile>
+    <ClCompile Include="CompressorDSP.cpp">
+      <Filter>Source Files\DSPs</Filter>
+    </ClCompile>
+    <ClCompile Include="SFXReverbDSP.cpp">
+      <Filter>Source Files\DSPs</Filter>
+    </ClCompile>
+    <ClCompile Include="ASGeometry.cpp">
+      <Filter>Source Files\Occlusion</Filter>
+    </ClCompile>
+    <ClCompile Include="ASGeometryImpl.cpp">
+      <Filter>Source Files\Occlusion</Filter>
+    </ClCompile>
+    <ClCompile Include="CustomDSP.cpp">
+      <Filter>Source Files\DSPs\CustomDSPs</Filter>
+    </ClCompile>
+    <ClCompile Include="CustomDSPImpl.cpp">
+      <Filter>Source Files\DSPs\CustomDSPs</Filter>
+    </ClCompile>
+    <ClCompile Include="MonkyReverbDSP.cpp">
+      <Filter>Source Files\DSPs\CustomDSPs</Filter>
+    </ClCompile>
+    <ClCompile Include="MonkyReverbDSPImpl.cpp">
+      <Filter>Source Files\DSPs\CustomDSPs</Filter>
+    </ClCompile>
+    <ClCompile Include="ReverbAreaImpl.cpp">
+      <Filter>Source Files\Fmod Impl</Filter>
+    </ClCompile>
+    <ClCompile Include="ReverbArea.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
