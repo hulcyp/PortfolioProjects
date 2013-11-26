@@ -1,0 +1,6 @@
+<Sounds>
+  <Sound name="Swish" mode="MONKY_3D">swish.wav</Sound>
+  <Sound name="DarkHorses" mode="MONKY_3D">08 Dark Horses.wma</Sound>
+  <Sound name="DarkHorses2D" mode="MONKY_2D">08 Dark Horses.wma</Sound>
+  <Sound name="drumloop" mode="MONKY_3D">drumloop.wav</Sound>
+</Sounds>

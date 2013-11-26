@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReverbAreas>
+  <ReverbArea name="Stone Room" pos="5,0,5" minDist="15.0" maxDist="30.0" preset="MONKY_PRESET_STONEROOM"/>
+  <ReverbArea name="Underwate" pos="20,0,40" minDist="15.0" maxDist="30.0" preset="MONKY_PRESET_HANGAR"/>
+</ReverbAreas>

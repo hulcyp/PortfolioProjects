@@ -1,0 +1,23 @@
+<SoundCues>
+  <SoundCue name="Swish" sound="Swish" volume="1.0" pos="50,5,30" vel="0,0,0" attenuationStartDist="0.5" isLooping="1" startPaused="0">
+    <!--<DSP type="MONKY_DSP_TYPE_ECHO" delayMS="2000" dryMixVolume="1.0" wetMixVolume="0.5"/>
+    <DSP type="MONKY_DSP_TYPE_CHORUS" modulationRate="20.0" delayMS="100" modulationDepth="1.0">
+      <WetVolume channel="0" volume="1.0" />
+      <WetVolume channel="1" volume="0.5" />
+    </DSP>--><!--
+    --><!--<DSP type="MONKY_DSP_TYPE_SFXREVERB"></DSP>-->
+
+  </SoundCue>
+  
+  <SoundCue name="DarkHorses02" sound="DarkHorses" volume="1.0" pos="0,5,0" vel="0,0,0" attenuationStartDist="5.0" isLooping="1" startPaused="0" frequency="default" >
+    <!--<Cone insideAngle="20.0" outsideAngle="45.0" outsideVolume="0.0" yaw="180.0" pitch="45.0" roll="0.0" />-->
+  </SoundCue>
+
+  <SoundCue name="DarkHorses" sound="DarkHorses" volume="1.0" pos="20,5,40" vel="0,0,0" attenuationStartDist="5.0" isLooping="1" startPaused="1" frequency="default" >
+    <!--<Cone insideAngle="20.0" outsideAngle="45.0" outsideVolume="0.0" yaw="180.0" pitch="45.0" roll="0.0" />-->
+  </SoundCue>
+
+  <SoundCue name="drumloop" sound="drumloop" volume="1.0" pos="75,5.0,75" attenuationStartDist="3.0" isLooping="1" startPaused="0" >
+    <Cone insideAngle="20.0" outsideAngle="45.0" outsideVolume="0.0" yaw="180.0" pitch="45.0" roll="0.0" />
+  </SoundCue>
+</SoundCues>
