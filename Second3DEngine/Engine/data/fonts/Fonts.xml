@@ -1,4 +1,0 @@
-<Fonts>
-  <Font name="consolas_24" xmlFile="Consolas_EN_24.xml" bmpFile="Consolas_EN_24.png" shaderProgram="simpleFontShader"/>
-  <Font name="mainFont_72" xmlFile="MainFont_EN_72.xml" bmpFile="MainFont_EN_00_72.png" shaderProgram="simpleFontShader"/>
-</Fonts>
