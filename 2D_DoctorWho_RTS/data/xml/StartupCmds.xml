@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<StartupCommands>
+  <Command>giveresource1 1000 1000 1000</Command>
+  <!--<Command>renderfromplayerpov -1</Command>-->
+</StartupCommands>

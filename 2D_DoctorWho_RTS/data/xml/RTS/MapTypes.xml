@@ -1,0 +1,57 @@
+<!--PH = Per Hectare -->
+<MapTypes>
+  
+	<MapType name="Plains" textureMap="DoctorWhoTextureAtlas" tileWidth="16" tileHeight="16" >
+    <DefaultTerrain fill="grass" border="stone" playerSpawn="grass" />
+    
+    <Blobs type="stone" countPH="5~7" radiusPH="5~7" density="1.0" roundness="0.9" >
+    </Blobs>   
+
+    <Blobs type="tree" countPH="5~10" radiusPH="5~10" density="0.9" roundness="0.9">
+      <SpawnRules cannotOverride="stone" />
+    </Blobs>
+
+   
+    <Streams type="water" countPH="10~15" lengthPH="20~30" chanceOfFork="0.8" straightness="0.5" widthPH="2">
+    </Streams> 
+
+    <Blobs type="water" countPH="5~10" radiusPH="5~10" density="1.0" roundness="0.8">
+      <SpawnRules startsOn="water" canOverride="" cannotOverride="custard,fishFinders" mustSpawnAdjTo="" cannotSpawnAdjTo="" />
+    </Blobs>
+
+
+    <Streams type="fishFingers" countPH="5" lengthPH="8" chanceOfFork="0.8" straightness="0.8" widthPH="1" >
+        <ForEachPlayer distFromPlayerPH="7~10"/>
+        <SpawnRules startsOn="" canOverride="grass,tree,stone" cannotOverride="" mustSpawnAdjTo="" cannotSpawnAdjTo="" />
+    </Streams>
+
+    <Blobs type="custard" countPH="5" radiusPH="2" density="1.0" roundness="0.5" >
+      <ForEachPlayer distFromPlayerPH="7~10"/>
+      <SpawnRules startsOn="" canOverride="grass,water,tree" cannotOverride="stone" mustSpawnAdjTo="stone" cannotSpawnAdjTo="stone" />
+    </Blobs>
+    <Streams type="custard" countPH="5" lengthPH="5~10" chanceOfFork="0.7" straightness="0.8" widthPH="1" >
+      <ForEachPlayer distFromPlayerPH="7~10" />
+      <SpawnRules startsOn="custard"/>
+    </Streams>
+
+    <Mutator terrainType="water" typeAdjTo="" typeToChangeTo="shallowWater" />
+    
+  </MapType>
+  
+  <MapType name="Islands" textureMap="DoctorWhoTextureAtlas" tileWidth="16" tileHeight="16" >
+    <DefaultTerrain fill="water" border="stone" playerSpawn="grass" />
+    <Blobs type="grass" countPH="10~15" radiusPH="10~13" density="1" roundness="0.5"/>
+    <Streams type="stone" countPH="5~10" lengthPH="15~20" chanceOfFork="0.5" straightness="0.5" widthPH="2" />
+    <Streams type="fishFingers" countPH="5" lengthPH="4" chanceOfFork="0" straightness="0" widthPH="1" >
+      <ForEachPlayer distFromPlayerPH="7~10" />
+      <SpawnRules startsOn="" canOverride="" cannotOverride="" mustSpawnAdjTo="" cannotSpawnAdjTo="" />
+    </Streams>
+  </MapType>
+  
+  <MapType name="Desert" textureMap="DoctorWhoTextureAtlas" tileWidth="16" tileHeight="16" >
+    <DefaultTerrain fill="sand" border="sandStone" playerSpawn="grass" />
+    <Blobs type="water" countPH="2~3" radiusPH="5~7" density="1.0" roundness="0.9" />
+    <Streams type="water" countPH="2~3" lengthPH="10~20" chanceOfFork="0.2" straightness="0.8" widthPH="2" />
+  </MapType>
+  
+</MapTypes>

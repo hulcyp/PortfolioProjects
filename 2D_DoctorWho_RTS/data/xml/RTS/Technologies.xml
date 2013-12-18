@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Technologies>
+  <Technology name="Charge">
+    <Cost time="140" mineral="200" gas="200"/>
+  </Technology>
+  <Technology name="Warp Gate">
+    <Cost time="160" mineral="50" gas="50" />
+  </Technology>
+</Technologies>

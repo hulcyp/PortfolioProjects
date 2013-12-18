@@ -1,0 +1,183 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{F225FF86-8852-4C3A-9221-5A61D6987ADA}</ProjectGuid>
+    <RootNamespace>RTS</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="..\Properties\CoreEngineInclude.props" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="..\Properties\CoreEngineInclude.props" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <IncludePath>../CoreEngine;../MathLib;../TimeLib;../libs/freeglut/include/GL;../libs/glew-1.9.0/include/GL;$(VCInstallDir)include;$(VCInstallDir)atlmfc\include;$(WindowsSdkDir)include;$(FrameworkSDKDir)\include;</IncludePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <SourcePath>../CoreEngine;../MathLib;../TimeLib;../libs/freeglut/include/GL;../libs/glew-1.9.0/include/GL;$(VCInstallDir)atlmfc\src\mfc;$(VCInstallDir)atlmfc\src\mfcm;$(VCInstallDir)atlmfc\src\atl;$(VCInstallDir)crt\src;</SourcePath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CoreEngine\CoreEngine.vcxproj">
+      <Project>{eed63cb5-a340-4e9d-8590-48890475b07d}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\EventSystem\EventSystem.vcxproj">
+      <Project>{80379e5e-f602-46f7-b2f5-7a7c7e3ad9f5}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\MathLib\MathLib.vcxproj">
+      <Project>{237469b5-f66f-43df-8352-80ef22528960}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\TimeLib\TimeLib.vcxproj">
+      <Project>{3f43cc8e-a706-4fb3-8bc0-244ff5e1f729}</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\data\shaders\RTSEntityShader.frag.glsl" />
+    <None Include="..\data\shaders\RTSEntityShader.vertex.glsl" />
+    <None Include="..\data\shaders\RTSMapTileShader.frag.glsl" />
+    <None Include="..\data\shaders\RTSMapTileShader.vertex.glsl" />
+    <None Include="..\data\xml\RTS\Buildings.xml">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="..\data\xml\RTS\MapTypes.xml">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="..\data\xml\RTS\Technologies.xml">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="..\data\xml\RTS\Terrain.xml">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="..\data\xml\RTS\Units.xml">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="PlayerColors.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AIController.h" />
+    <ClInclude Include="AStarMinHeap.h" />
+    <ClInclude Include="AStarPathGenerator.h" />
+    <ClInclude Include="AttackMoveOrders.h" />
+    <ClInclude Include="AttackOrders.h" />
+    <ClInclude Include="BlobBrush.h" />
+    <ClInclude Include="Brush.h" />
+    <ClInclude Include="Building.h" />
+    <ClInclude Include="BuildingBlueprint.h" />
+    <ClInclude Include="BuildingOrders.h" />
+    <ClInclude Include="BuildOrders.h" />
+    <ClInclude Include="BuildUnitOrders.h" />
+    <ClInclude Include="CollectResource.h" />
+    <ClInclude Include="CommandCard.h" />
+    <ClInclude Include="GotoResource.h" />
+    <ClInclude Include="HarvestOrders.h" />
+    <ClInclude Include="HoldOrders.h" />
+    <ClInclude Include="Orders.h" />
+    <ClInclude Include="Controller.h" />
+    <ClInclude Include="Entity.h" />
+    <ClInclude Include="Map.h" />
+    <ClInclude Include="MapTypeBlueprint.h" />
+    <ClInclude Include="MoveOrders.h" />
+    <ClInclude Include="HumanController.h" />
+    <ClInclude Include="ReturnResource.h" />
+    <ClInclude Include="RTSCamera.h" />
+    <ClInclude Include="RTSDebuggingStats.h" />
+    <ClInclude Include="RTSGame.h" />
+    <ClInclude Include="RTSWorld.h" />
+    <ClInclude Include="Technology.h" />
+    <ClInclude Include="TechnologyBlueprint.h" />
+    <ClInclude Include="TerrainType.h" />
+    <ClInclude Include="TerrainTypeBlueprint.h" />
+    <ClInclude Include="Unit.h" />
+    <ClInclude Include="UnitBlueprint.h" />
+    <ClInclude Include="UnitOrders.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="AIController.cpp" />
+    <ClCompile Include="AStarMinHeap.cpp" />
+    <ClCompile Include="AStarPathGenerator.cpp" />
+    <ClCompile Include="AttackMoveOrders.cpp" />
+    <ClCompile Include="AttackOrders.cpp" />
+    <ClCompile Include="BlobBrush.cpp" />
+    <ClCompile Include="Brush.cpp" />
+    <ClCompile Include="Building.cpp" />
+    <ClCompile Include="BuildingBlueprint.cpp" />
+    <ClCompile Include="BuildingOrders.cpp" />
+    <ClCompile Include="BuildOrders.cpp" />
+    <ClCompile Include="BuildUnitOrders.cpp" />
+    <ClCompile Include="CollectResource.cpp" />
+    <ClCompile Include="Entity.cpp" />
+    <ClCompile Include="GotoResource.cpp" />
+    <ClCompile Include="HoldOrders.cpp" />
+    <ClCompile Include="HumanController.cpp" />
+    <ClCompile Include="Map.cpp" />
+    <ClCompile Include="MapTypeBlueprint.cpp" />
+    <ClCompile Include="MoveOrders.cpp" />
+    <ClCompile Include="Orders.cpp" />
+    <ClCompile Include="ReturnResource.cpp" />
+    <ClCompile Include="RTSCamera.cpp" />
+    <ClCompile Include="Controller.cpp" />
+    <ClCompile Include="RTSDebuggingStats.cpp" />
+    <ClCompile Include="RTSWorld.cpp" />
+    <ClCompile Include="Technology.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="RTSGame.cpp" />
+    <ClCompile Include="TechnologyBlueprint.cpp" />
+    <ClCompile Include="TerrainType.cpp" />
+    <ClCompile Include="TerrainTypeBlueprint.cpp" />
+    <ClCompile Include="Unit.cpp" />
+    <ClCompile Include="UnitBlueprint.cpp" />
+    <ClCompile Include="UnitOrders.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
