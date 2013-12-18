@@ -70,13 +70,13 @@
     <SourcePath>../Engine/AudioSystem;../Engine/libs/fmod/inc;../Engine/libs/SDL-1.2.15/include;../Engine/CoreEngine;../Engine/MathLib;../Engine/TimeLib;../Engine/libs/freeglut/include/GL;../Engine/libs/glew-1.9.0/include/GL;$(VCInstallDir)atlmfc\src\mfc;$(VCInstallDir)atlmfc\src\mfcm;$(VCInstallDir)atlmfc\src\atl;$(VCInstallDir)crt\src</SourcePath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
-    <IncludePath>../Engine/AudioSystem_Cricket/Code;../Engine/libs/SDL-1.2.15/include;../Engine/CoreEngine;../Engine/MathLib;../Engine/TimeLib;../Engine/libs/freeglut/include/GL;../Engine/libs/glew-1.9.0/include/GL;$(VCInstallDir)include;$(VCInstallDir)atlmfc\include;$(WindowsSdkDir)include;$(FrameworkSDKDir)\include</IncludePath>
+    <IncludePath>../Engine/AudioSystem;../Engine/libs/SDL-1.2.15/include;../Engine/CoreEngine;../Engine/MathLib;../Engine/TimeLib;../Engine/libs/freeglut/include/GL;../Engine/libs/glew-1.9.0/include/GL;$(VCInstallDir)include;$(VCInstallDir)atlmfc\include;$(WindowsSdkDir)include;$(FrameworkSDKDir)\include</IncludePath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <LibraryPath>../Engine/libs/SDL-1.2.15/lib/x86;../Engine/libs/freeglut/lib;../Engine/libs/glew-1.9.0/lib;$(VCInstallDir)lib;$(VCInstallDir)atlmfc\lib;$(WindowsSdkDir)lib;$(FrameworkSDKDir)\lib</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
-    <SourcePath>../Engine/AudioSystem_Cricket/Code;../Engine/libs/fmod/inc;../Engine/libs/SDL-1.2.15/include;../Engine/CoreEngine;../Engine/MathLib;../Engine/TimeLib;../Engine/libs/freeglut/include/GL;../Engine/libs/glew-1.9.0/include/GL;$(VCInstallDir)atlmfc\src\mfc;$(VCInstallDir)atlmfc\src\mfcm;$(VCInstallDir)atlmfc\src\atl;$(VCInstallDir)crt\src</SourcePath>
+    <SourcePath>../Engine/AudioSystem;../Engine/libs/fmod/inc;../Engine/libs/SDL-1.2.15/include;../Engine/CoreEngine;../Engine/MathLib;../Engine/TimeLib;../Engine/libs/freeglut/include/GL;../Engine/libs/glew-1.9.0/include/GL;$(VCInstallDir)atlmfc\src\mfc;$(VCInstallDir)atlmfc\src\mfcm;$(VCInstallDir)atlmfc\src\atl;$(VCInstallDir)crt\src</SourcePath>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
@@ -118,16 +118,13 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
       <OptimizeReferences>true</OptimizeReferences>
-      <AdditionalDependencies>glew32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <SubSystem>Console</SubSystem>
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
     <ProjectReference Include="..\Engine\AudioSystem\AudioSystem.vcxproj">
       <Project>{b6c1c4e3-9388-4356-97ef-3b8f97fb593b}</Project>
-    </ProjectReference>
-    <ProjectReference Include="..\Engine\AudioSystem_Cricket\AudioSystem_Cricket.vcxproj">
-      <Project>{f6f3b931-bd74-4069-93b7-1201d831490c}</Project>
     </ProjectReference>
     <ProjectReference Include="..\Engine\CoreEngine\CoreEngine.vcxproj">
       <Project>{eed63cb5-a340-4e9d-8590-48890475b07d}</Project>
