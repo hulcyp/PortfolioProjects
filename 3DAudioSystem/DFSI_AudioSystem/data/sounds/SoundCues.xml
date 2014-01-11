@@ -17,7 +17,7 @@
     <!--<Cone insideAngle="20.0" outsideAngle="45.0" outsideVolume="0.0" yaw="180.0" pitch="45.0" roll="0.0" />-->
   </SoundCue>
 
-  <SoundCue name="drumloop" sound="drumloop" volume="1.0" pos="75,5.0,75" attenuationStartDist="3.0" isLooping="1" startPaused="0" >
+  <SoundCue name="DarkHorses03" sound="DarkHorses" volume="1.0" pos="75,5.0,75" attenuationStartDist="3.0" isLooping="1" startPaused="0" >
     <Cone insideAngle="20.0" outsideAngle="45.0" outsideVolume="0.0" yaw="180.0" pitch="45.0" roll="0.0" />
   </SoundCue>
 </SoundCues>
