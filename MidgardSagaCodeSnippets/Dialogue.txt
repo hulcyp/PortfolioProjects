@@ -1,0 +1,9 @@
+DialogueLevel1= "Freya_Hurt><Freya_Hurt>Avenge me, my friends!"
+DialogueLevel1= "Iliana_Hurt><Iliana_Hurt>My knowledge… Was not… enough…"
+DialogueLevel1= "Odin><Odin>It seems one of our friends is in trouble. Let me teach you how to guide our heroes through their trials."
+DialogueLevel1= "Odin><Odin>Very good! You’re getting a hang of this “god” thing already. Once you have selected a hero, you can control it and guide its actions."
+DialogueLevel1= "Odin><Odin>The blue circle indicates how far your hero can move. The red circle shows the hero’s attack range."
+
+DialogueLevel1= "Dag,Bjorn><Dag>I’ve heard of playing darts in taverns, but axe throwing? That’s going a bit far…<Bjorn>It’s not funny, Dag. Help me out with this loon."
+DialogueLevel1= "Freya,Iliana><Freya>The mead we are delivering then...<Iliana>It is as we feared: the brew is Odin's. Our buyer was an agent of Loki after all."
+DialogueLevel1= "Bjorn,Iliana><Bjorn>But why would he want it? It's still just mead like any other... Right?<Iliana>I thought that too, Björn. But it has special properties... Magical, healing properties."
