@@ -1,0 +1,174 @@
+	Variable Name	English
+[BS_GFxHUDMoviePlayer]	
+	TurnNumberString	Turn
+	PlayerTurnString	Player's Turn
+	EnemyTurnString	Enemy's Turn
+	VictoryString	Victory!
+	DefeatString	Defeat
+	APLeftString	AP:
+	HPString	HP:
+	AtkString	Atk:
+	ClassString	Class:
+	BjornName	Bjorn
+	DagName	Dag
+	FreyaName	Freya
+	IlianaName	Iliana
+	BanditName	Bandit
+	BanditAxeThrowerName	Bandit Axe Thrower
+	BanditSummonerName	Bandit Summoner
+	BanditSeerGuardName	Bandit Seer
+	Loki	Loki
+	BerserkerClassName	Berserker
+	AxeThrowerClassName	Axe Thrower
+	ShieldMaidenClassName	Shield Maiden
+	SeerClassName	Seer
+	VikingEnemyClassName	Viking
+	WhirlwindName	Whirlwind
+	WhirlwindDescription	Bjorn's standard attack. He always hits all enemies within range.
+	ChargeName	Charge
+	ChargeDescription	Melee units may charge at any character within twice their movement range.
+	HealName	Drink
+	HealDescription	Drink mead to restore 50 HP. Cannot use on allies. 2 uses per battle.
+	PullName	Pull
+	PullDescription	Freya throws a chained spear at a target and yanks it back, pulling the target toward her.
+	VortexName	Vortex
+	VortexDescription	Places a vortex that sucks enemies toward it.
+	KickName	Kick
+	KickDescription	Knocks back target foe with a mighty kick.
+	ActionsMouseControlsUse	Use
+	ActionsMouseControlsDeselect	Deselect
+	EndTurnButtonName	End Turn
+	DialogueButtonName	Continue
+	DialogueTest	I am Bjorn Snorison, son of Snori Snorison. A man amoung men. Master of the axe and breaker of skulls!
+	DialogueLevel1	Bjorn><Bjorn>No... Not yet...
+	DialogueLevel1	Freya><Freya>Go on without me...
+	DialogueLevel1	Dag><Dag>Kill, kill, kill, kill, noooo!
+	DialogueLevel1	Iliana><Iliana>Gods, why..?
+	DialogueLevel1	Freya><Freya>Hover the cursor over a unit and left click to select it. Start by clicking the CONTINUE button and select Freya.
+	DialogueLevel1	Freya><Freya>Once the unit is selected, it can perform actions. The blue circle indicates the unit's movement range.
+	DialogueLevel1	Freya><Freya>The red circle indicates the unit's attack range.
+	DialogueLevel1	Freya><Freya>Start by attacking the enemy unit in front of Freya. Hover the cursor over the enemy unit and it will become a sword,
+	DialogueLevel1	Freya><Freya>indicating a valid attack target. Right click the enemy to attack.
+	DialogueLevel1	Freya><Freya>Now that the enemy is dead, let's move Freya around.
+	DialogueLevel1	Freya><Freya>Right click anywhere inside the blue circle and Freya will move to that location.
+	DialogueLevel1	Bjorn><Bjorn>Each unit has different abilities. PASSIVE ABILITIES such as WHIRLWIND do not require the player to activate them.
+	DialogueLevel1	Bjorn><Bjorn>Whirlwind makes Bjorn's attack hit all enemies in his attack circle. Try attacking one of the enemies surrounding Bjorn 
+	DialogueLevel1	Bjorn><Bjorn>ACTIVE ABILITIES like CHARGE require clicking its button on the HUD with left click, or using the hotkeys indicated in the description.
+	DialogueLevel1	Bjorn><Bjorn>After selecting the ability, the cursor changes to a magic hammer. Right click the unit you wish to target.
+	DialogueLevel1	Dag><Dag>Ranged units have a smaller movement range but larger attack range. Use Dag to kill the two enemies.
+	DialogueLevel1	Iliana><Iliana>Some abilities allow units to push and pull other units. Iliana's VORTEX is one such ability.
+	DialogueLevel1	Iliana><Iliana>When the ability is selected, a green circle appears around the cursor. This is the ability's area of effect.
+	DialogueLevel1	Iliana><Iliana>VORTEX will pull any unit in the radius toward the center. Select Iliana and use Vortex to pull the enemies together.
+	DialogueLevel1	Iliana><Iliana>LIGHTNING STORM is an ability that deals damage at a distance. Its placement is handled in the same way as VORTEX
+	DialogueLevel1	Iliana><Iliana>Use LIGHTNING STORM to attack enemies.
+	DialogueLevel1	Freya><Freya>All the information for the unit is displayed on the HUD at the top left corner. Each action costs ACTION POINTS.
+	DialogueLevel1	Freya><Freya>When the unit runs out of ACTION POINTS you will not be able to use that unit again until the next turn.
+	DialogueLevel1	Freya><Freya>Freya now has no action points left, so you will have to use another unit. Select Bjorn the Berserker.
+	DialogueLevel1	Bjorn><Bjorn>If you move the cursor over the abilities, a description of that ability pops up. Try attacking one of the enemies surrounding Bjorn."
+	DialogueLevel1	Bjorn><Bjorn>Charge lets the unit dash toward an enemy within twice its movement range and deal damage. Try charging the enemy unit in front of you.
+	DialogueLevel1	Iliana><Iliana>When all of your units run out of ACTION POINTS, the enemy turn begins.
+	DialogueLevel1	Bandit><Bandit>When a melee unit attacks another unit, those two units become COMBAT LOCKED.
+	DialogueLevel1	Bandit><Bandit>While in COMBAT LOCK, units cannot move, and ranged units must spend 2 ACTION POINTS to perform most actions.
+	DialogueLevel1	Bandit><Bandit>COMBAT LOCK can be broken by killing the unit that initiated it, or by using certain skills such as VORTEX.
+	DialogueLevel1	Dag><Dag>Start by healing DAG. Select him and use the DRINK ability. Since he is in COMBAT LOCK, this will cost both of his ACTION POINTS.
+	DialogueLevel1	Dag><Dag>Now use what you have learned to get DAG out of COMBAT LOCK and defeat the last enemy.
+	DialogueLevel3	Dag,Bjorn><Dag>The village burns...<Bjorn>And our shelter with it.
+	DialogueLevel3	Bandit_Summoner><Bandit_Summoner>We'll get 'em this time!
+	DialogueLevel3	Freya><Freya>Bandits!
+	DialogueLevel3	Bandit_Summoner><Bandit_Summoner>...But we'll need backup.
+	DialogueLevel3	Iliana><Iliana>Summoners. They're calling reinforcements.
+	DialogueLevel3	Dag><Dag>We'll have to cut them down then, or fight forever.
+	DialogueLevel3	Bandit_Summoner><Bandit_Summoner>Summoners down! Pick up the pace!
+	DialogueLevel3	Bandit><Bandit>These punks are tougher than we thought... Book it!
+	DialogueLevel3	Iliana,Freya><Iliana>Running away, eh?<Freya>The more loot for us. Load the wagon and let's get outta' here.
+	DialogueLevel4	Bandit_Axe_Thrower,Bandit><Bandit_Axe_Thrower>The ambush is in place, sir.<Bandit>Perfect. There's no getting out of this one alive!<Bandit_Axe_Thrower>Well there are the gates, sir.<Bandit>Ah yes, gates. My mortal foe...<Bandit>Well we will just have to hope they don't think of that, then.<Bandit_Axe_Thrower>Yes sir!
+	DialogueLevel4	Iliana,Dag><Iliana>Yggdrasil at last! What a thing to behold.<Dag>These roots are as big as my... well...
+	DialogueLevel4	Bandit><Bandit>AAAAAMBUUUUUSH!
+	DialogueLevel4	Dag><Dag>Again?
+	DialogueLevel4	Freya><Freya>Damn fools. Let's make this quick. We have a tree to climb.
+	DialogueLevel4	Bjorn,Freya><Bjorn>That should hold them.<Freya>But not for long.<Bjorn>Aye. Up the tree we go.
+	DialogueLevel5	Bandit><Bandit>I've squandered my resources. To think they'd be so resilient.
+	DialogueLevel5	Bandit><Bandit>I'll have to resort to more serious measures.
+	DialogueLevel5	Iliana><Iliana>Stop. Something isn't right. I sense magic, but of a darker kind.
+	DialogueLevel5	Bjorn><Bjorn>What's that ahead?
+	DialogueLevel5	Dag><Dag>There's your dark magic. It's blocking our path.
+	DialogueLevel6	Dag><Dag>The Gates of Asgard.
+	DialogueLevel6	Iliana><Iliana>Our journey comes to a close.
+	DialogueLevel6	Freya><Freya>Who-?
+	DialogueLevel6	Bjorn><Bjorn>Loki!
+	DialogueLevel6	Loki><Loki>My followers may have failed, but I can bury you myself.
+	DialogueLevel6	Dag><Dag>Don't back down. Gods die like the rest of us.
+[BS_GFxFrontEnd]	
+	LevelNames	Tavern
+	LevelNames	Burning Village
+	LevelNames	Roots of Yggdrasil
+	LevelNames	Yggdrasil
+	LevelNames	Gates of Asgard
+	Quit	Quit
+	MainTitle	Midgard Saga
+	LevelSelect	Level Select
+	Controls	Controls
+	Options	Options
+	Credits	Credits
+	Play	Play
+	Back	Back
+	Music	Music
+	SFX	SFX
+	Resolution	Resolution
+	Fullscreen	Fullscreen
+	Language	Language
+	ApplyButton	Apply
+[BS_GFxHUD_PauseMenu]	
+	ResumeLevelButtonName	Resume
+	MainMenuButtonName	Main Menu
+	YesToMainMenuButtonName	Yes
+	NoToMainMenuButtonName	No
+	PauseText	Paused
+	BackToMainMenuText	Back to Main Menu
+	AreYouSureText	Are You Sure?
+	ControlsButtonName	Controls
+	ControlsText	Controls
+	BackButtonName	Back
+	Level1Name	Tavern
+	Level1Objective	Defeat All Enemies
+	Level2Name	Burning Village
+	Level2Objective	Defeat the Summoners
+	Level3Name	Roots of Yggdrasil
+	Level3Objective	Close the Gates
+	Level4Name	Yggdrasil
+	Level4Objective	Cross the Branch
+	Level5Name	Gates of Asgard
+	Level5Objective	Defeat Loki & His Minions
+[BS_GFxHUD_EndOfLevelScreen]	
+	VictoryText	Victory!
+	TurnsLabel	Turns:
+	UnitsLostLabel	Units Lost:
+	EnemiesDefeatedLabel	Enemies Defeated:
+	APSpentLabel	AP Spent:
+	MainMenuButtonName	Main Menu
+	NextLevelButtonName	Next Level
+	Level1Name	Tavern
+	Level2Name	Burning Village
+	Level3Name	Roots of Yggdrasil
+	Level4Name	Yggdrasil
+	Level5Name	Gates of Asgard
+[BS_GFxHUD_GameOverScreen]	
+	GameOverText	Game over!
+	RetryButtonName	Retry
+	MainMenuButtonName	Main Menu
+[BS_LocalMessage]	
+	InvalidCommand	Invalid Command
+	OutOfAP	Out of Action Points
+	NotEnoughAP	Not Enough Action Points
+	StillPerformingAction	Unit is still performing action
+	NotPlayersTurn	Not your turn
+	NotEnoughAPForRangedInCombatLock	Not enough AP. Abilities cost 2 AP for ranged units in combat lock
+[BS_GFxHUD_SkillSelection]	
+	BjornName	Bjorn
+	DagName	Dag
+	FreyaName	Freya
+	IlianaName	Iliana
+	HPString	HP
+	AtkString	Atk
+	SkillsString	Skills
+	StartGame	Start Game
