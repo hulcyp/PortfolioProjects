@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<BuildingTypes>
+  <BuildingType name="Tardis">
+    <Visual color="#FFFFFF" texture="TARDIS" width="2.0" height="4.0" selectionTexture="SelectionRectangle" />
+    <Cost time="50" fishFingers="100" custard="0" timeEnergy="0" />
+    <Construction canBeBuiltOn="grass" mustBeBuiltAdjTo="" />
+    <Health max="200"/>
+    <Vision range="10.0"/>
+    <UnitsProduced>
+      <Unit name="K-9" hotkey="K"/>
+      <Unit name="9thDoctor" hotkey="C" />
+      <Unit name="10thDoctor" hotkey="T" />
+      <Unit name="11thDoctor" hotkey="M" />
+    </UnitsProduced>
+    <SupplyProvided amount="10" />
+  </BuildingType>
+
+  <!--Dalek Race-->  
+  <BuildingType name="DalekScoutship">
+    <Visual color="#FFFFFF" texture="DalekScoutShip" width="2.0" height="2.0" selectionTexture="SelectionCircle" />
+    <Cost time="20" fishFingers="100" custard="0" timeEnergy="0" />
+    <Construction canBeBuiltOn="grass" />
+    <Health max="50"/>
+    <Vision range="10.0"/>
+    <UnitsProduced>
+      <Unit name="Cyberman" hotkey="C"/>
+    </UnitsProduced>
+    <SupplyProvided amount="10" />
+  </BuildingType>
+
+  <BuildingType name="WeepingAngelCave">
+    <Visual color="#FFFFFF" texture="WeepingAngelCave" width="4.0" height="4.0" selectionTexture="SelectionRectangle" />
+    <Cost time="25" fishFingers="200" custard="100" timeEnergy="0" />
+    <Construction canBeBuiltOn="grass" mustBeBuiltAdjTo="stone" />
+    <Health max="100"/>
+    <Vision range="10.0"/>
+    <UnitsProduced>
+      <Unit name="WeepingAngel" hotkey="W"/>
+    </UnitsProduced>
+    <SupplyProvided amount="10" />
+  </BuildingType>
+
+  <BuildingType name="DalekSpaceship">
+    <Visual color="#FFFFFF" texture="DalekSpaceship" width="4.0" height="4.0" selectionTexture="SelectionCircle" />
+    <Cost time="25" fishFingers="200" custard="100" timeEnergy="0" />
+    <Construction canBeBuiltOn="grass" />
+    <Health max="100"/>
+    <Vision range="10.0"/>
+    <UnitsProduced>
+      <Unit name="WhiteDalek" hotkey="W"/>
+    </UnitsProduced>
+    <SupplyProvided amount="10" />
+  </BuildingType>
+
+
+</BuildingTypes>

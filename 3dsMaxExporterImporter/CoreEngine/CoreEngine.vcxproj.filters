@@ -1,0 +1,512 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Shaders">
+      <UniqueIdentifier>{f817a601-5995-4beb-823f-ffa065a2ed5f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fonts">
+      <UniqueIdentifier>{213856d0-e6bf-441e-98fc-03db77a8beba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Utils">
+      <UniqueIdentifier>{88e147df-9d0d-4fa8-9662-579adc80921b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Utils">
+      <UniqueIdentifier>{6781c535-680c-4a13-82e8-7f13db5d3908}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Renderer">
+      <UniqueIdentifier>{dd139cf7-914e-49b1-a759-55fb1e93c5d9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Renderer">
+      <UniqueIdentifier>{bc15332b-0005-46bb-8a3e-fb72ed742cac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ConsoleSystem">
+      <UniqueIdentifier>{4adab02d-d460-4e88-a089-a362465c10cf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ConsoleSystem">
+      <UniqueIdentifier>{8f671dae-8292-4dac-bc01-b5008c7aa040}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="XML">
+      <UniqueIdentifier>{aa5de17d-f8c0-4c28-bb90-3fd6848c3c07}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Debugging">
+      <UniqueIdentifier>{c1d6dd99-caf2-42cb-845e-e44ee78c2c7c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Debugging">
+      <UniqueIdentifier>{c8d97cd8-3122-431a-80e6-44cfa1707b14}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Buffers">
+      <UniqueIdentifier>{28a4840c-ce13-4a28-a46b-15c1c7065d44}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Buffers">
+      <UniqueIdentifier>{91a53c76-5f77-420e-909e-d32a7f86c076}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\SceneGraph">
+      <UniqueIdentifier>{0f9f8397-1edc-4b21-af96-b56f0147ba55}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\SceneGraph">
+      <UniqueIdentifier>{6c5f34d8-a66a-47ec-9b55-40a17b5127ea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Cameras">
+      <UniqueIdentifier>{269e34d4-5040-44f5-b152-e467a8943e7a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Cameras">
+      <UniqueIdentifier>{222fca02-521e-4df3-ad12-3e3acdb5ea70}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\EventSystem">
+      <UniqueIdentifier>{ab89cfd9-04fd-4a7e-98f5-6aedba3bf2f1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\EventSystem">
+      <UniqueIdentifier>{86138342-4102-46ca-837c-024a2423ccd0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="GlutApp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GameWorld.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ErrorHandlingUtils.cpp">
+      <Filter>Source Files\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="stb_image.c">
+      <Filter>Source Files\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="tinyxml2.cpp">
+      <Filter>Source Files\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Shader.cpp">
+      <Filter>Source Files\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="ShaderProgram.cpp">
+      <Filter>Source Files\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture.cpp">
+      <Filter>Source Files\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="Renderer.cpp">
+      <Filter>Source Files\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="Material.cpp">
+      <Filter>Source Files\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="Font.cpp">
+      <Filter>Source Files\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="Mesh.cpp">
+      <Filter>Source Files\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="ConsoleOutputWindow.cpp">
+      <Filter>Source Files\ConsoleSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="ConsoleSystem.cpp">
+      <Filter>Source Files\ConsoleSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="CommonEngineIncludes.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CommandLine.cpp">
+      <Filter>Source Files\ConsoleSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="StringUtils.cpp">
+      <Filter>Source Files\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="GraphicDebugObject.cpp">
+      <Filter>Source Files\Debugging</Filter>
+    </ClCompile>
+    <ClCompile Include="GDOManager.cpp">
+      <Filter>Source Files\Debugging</Filter>
+    </ClCompile>
+    <ClCompile Include="GDOSphere.cpp">
+      <Filter>Source Files\Debugging</Filter>
+    </ClCompile>
+    <ClCompile Include="GDOPoint.cpp">
+      <Filter>Source Files\Debugging</Filter>
+    </ClCompile>
+    <ClCompile Include="GDOActor.cpp">
+      <Filter>Source Files\Debugging</Filter>
+    </ClCompile>
+    <ClCompile Include="GDOArrow.cpp">
+      <Filter>Source Files\Debugging</Filter>
+    </ClCompile>
+    <ClCompile Include="Model.cpp">
+      <Filter>Source Files\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="GDOText.cpp">
+      <Filter>Source Files\Debugging</Filter>
+    </ClCompile>
+    <ClCompile Include="FrameBufferObject.cpp">
+      <Filter>Source Files\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="ResourceManager.cpp">
+      <Filter>Source Files\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Assertion.cpp">
+      <Filter>Source Files\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="glHelper.cpp">
+      <Filter>Source Files\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Colors.cpp">
+      <Filter>Source Files\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="XMLParser.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Buffer.cpp">
+      <Filter>Source Files\Buffers</Filter>
+    </ClCompile>
+    <ClCompile Include="GLBuffer.cpp">
+      <Filter>Source Files\Buffers</Filter>
+    </ClCompile>
+    <ClCompile Include="BufferLayout.cpp">
+      <Filter>Source Files\Buffers</Filter>
+    </ClCompile>
+    <ClCompile Include="VtxBufferAccessor.cpp">
+      <Filter>Source Files\Buffers</Filter>
+    </ClCompile>
+    <ClCompile Include="MeshFactory.cpp">
+      <Filter>Source Files\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="P3DImporter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Node.cpp">
+      <Filter>Source Files\SceneGraph</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneGraphManager.cpp">
+      <Filter>Source Files\SceneGraph</Filter>
+    </ClCompile>
+    <ClCompile Include="Actor.cpp">
+      <Filter>Source Files\SceneGraph</Filter>
+    </ClCompile>
+    <ClCompile Include="ActorManager.cpp">
+      <Filter>Source Files\SceneGraph</Filter>
+    </ClCompile>
+    <ClCompile Include="Object.cpp">
+      <Filter>Source Files\SceneGraph</Filter>
+    </ClCompile>
+    <ClCompile Include="BoundingSphere.cpp">
+      <Filter>Source Files\SceneGraph</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>Source Files\Cameras</Filter>
+    </ClCompile>
+    <ClCompile Include="MCCamera.cpp">
+      <Filter>Source Files\Cameras</Filter>
+    </ClCompile>
+    <ClCompile Include="P3DCamera.cpp">
+      <Filter>Source Files\Cameras</Filter>
+    </ClCompile>
+    <ClCompile Include="DebugStatistics.cpp">
+      <Filter>Source Files\Debugging</Filter>
+    </ClCompile>
+    <ClCompile Include="EventSystem.cpp">
+      <Filter>Source Files\EventSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="EventSystemInterface.cpp">
+      <Filter>Source Files\EventSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="SkeletalMesh.cpp">
+      <Filter>Source Files\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="NamedProperties.cpp">
+      <Filter>Source Files\EventSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="GDOOrientation.cpp">
+      <Filter>Source Files\Debugging</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GlutApp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GameWorld.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Singleton.h">
+      <Filter>Header Files\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="tinyxml2.h">
+      <Filter>Header Files\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Uncopyable.h">
+      <Filter>Header Files\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="ErrorHandlingUtils.h">
+      <Filter>Header Files\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Font.h">
+      <Filter>Header Files\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Material.h">
+      <Filter>Header Files\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer.h">
+      <Filter>Header Files\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Shader.h">
+      <Filter>Header Files\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="ShaderProgram.h">
+      <Filter>Header Files\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture.h">
+      <Filter>Header Files\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Mesh.h">
+      <Filter>Header Files\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Colors.h">
+      <Filter>Header Files\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="StringUtils.h">
+      <Filter>Header Files\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="ConsoleSystem.h">
+      <Filter>Header Files\ConsoleSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="ConsoleOutputWindow.h">
+      <Filter>Header Files\ConsoleSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="CommonEngineIncludes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CircularBuffer.h">
+      <Filter>Header Files\ConsoleSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="CommandLine.h">
+      <Filter>Header Files\ConsoleSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphicDebugObject.h">
+      <Filter>Header Files\Debugging</Filter>
+    </ClInclude>
+    <ClInclude Include="GDOManager.h">
+      <Filter>Header Files\Debugging</Filter>
+    </ClInclude>
+    <ClInclude Include="GDOSphere.h">
+      <Filter>Header Files\Debugging</Filter>
+    </ClInclude>
+    <ClInclude Include="GDOPoint.h">
+      <Filter>Header Files\Debugging</Filter>
+    </ClInclude>
+    <ClInclude Include="GDOActor.h">
+      <Filter>Header Files\Debugging</Filter>
+    </ClInclude>
+    <ClInclude Include="GDOOrientation.h">
+      <Filter>Header Files\Debugging</Filter>
+    </ClInclude>
+    <ClInclude Include="GDOArrow.h">
+      <Filter>Header Files\Debugging</Filter>
+    </ClInclude>
+    <ClInclude Include="Model.h">
+      <Filter>Header Files\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="GDOText.h">
+      <Filter>Header Files\Debugging</Filter>
+    </ClInclude>
+    <ClInclude Include="ResourceManager.h">
+      <Filter>Header Files\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Assertion.h">
+      <Filter>Header Files\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="glHelper.h">
+      <Filter>Header Files\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="XMLParser.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GLBuffer.h">
+      <Filter>Header Files\Buffers</Filter>
+    </ClInclude>
+    <ClInclude Include="BufferLayout.h">
+      <Filter>Header Files\Buffers</Filter>
+    </ClInclude>
+    <ClInclude Include="BufferAccessor.h">
+      <Filter>Header Files\Buffers</Filter>
+    </ClInclude>
+    <ClInclude Include="Buffer.h">
+      <Filter>Header Files\Buffers</Filter>
+    </ClInclude>
+    <ClInclude Include="VtxBufferAccessor.h">
+      <Filter>Header Files\Buffers</Filter>
+    </ClInclude>
+    <ClInclude Include="MeshFactory.h">
+      <Filter>Header Files\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="P3DImporter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Node.h">
+      <Filter>Header Files\SceneGraph</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneGraphManager.h">
+      <Filter>Header Files\SceneGraph</Filter>
+    </ClInclude>
+    <ClInclude Include="ActorManager.h">
+      <Filter>Header Files\SceneGraph</Filter>
+    </ClInclude>
+    <ClInclude Include="Actor.h">
+      <Filter>Header Files\SceneGraph</Filter>
+    </ClInclude>
+    <ClInclude Include="Object.h">
+      <Filter>Header Files\SceneGraph</Filter>
+    </ClInclude>
+    <ClInclude Include="BoundingSphere.h">
+      <Filter>Header Files\SceneGraph</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>Header Files\Cameras</Filter>
+    </ClInclude>
+    <ClInclude Include="MCCamera.h">
+      <Filter>Header Files\Cameras</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="P3DCamera.h">
+      <Filter>Header Files\Cameras</Filter>
+    </ClInclude>
+    <ClInclude Include="DebugStatistics.h">
+      <Filter>Header Files\Debugging</Filter>
+    </ClInclude>
+    <ClInclude Include="EventSubscriber.h">
+      <Filter>Header Files\EventSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="EventSystemInterface.h">
+      <Filter>Header Files\EventSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="EventSubscriberBase.h">
+      <Filter>Header Files\EventSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="EventSystem.h">
+      <Filter>Header Files\EventSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="NamedProperties.h">
+      <Filter>Header Files\EventSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="TypedData.h">
+      <Filter>Header Files\EventSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="TypedDataBase.h">
+      <Filter>Header Files\EventSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="FrameBufferObject.h">
+      <Filter>Header Files\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="SkeletalMesh.h">
+      <Filter>Header Files\Renderer</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\data\fonts\MainFont_EN.xml">
+      <Filter>Fonts</Filter>
+    </None>
+    <None Include="..\data\fonts\MainFont_EN_00.png">
+      <Filter>Fonts</Filter>
+    </None>
+    <None Include="..\data\shaders\simpleFont.vertex.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\data\shaders\simpleShader.frag.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\data\shaders\simpleShader.vertex.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\data\shaders\simpleFont.frag.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\data\shaders\ADS_lighting.frag.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\data\shaders\ADS_lighting.vertex.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\data\shaders\fieryFont.frag.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\data\shaders\fieryFont.vertex.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\data\materials\Materials.xml">
+      <Filter>XML</Filter>
+    </None>
+    <None Include="..\data\shaders\ShaderPrograms.xml">
+      <Filter>XML</Filter>
+    </None>
+    <None Include="..\data\fonts\Fonts.xml">
+      <Filter>XML</Filter>
+    </None>
+    <None Include="..\data\shaders\DebugShader.frag.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\data\shaders\DebugShader.vertex.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\data\shaders\FBO_Shader.frag.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\data\shaders\FBO_Shader.vertex.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\data\textures\Textures.xml">
+      <Filter>XML</Filter>
+    </None>
+    <None Include="..\data\shaders\BlurShader.frag.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\data\shaders\GlowShader.frag.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\data\shaders\GlowMapGenShader.frag.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\data\shaders\OutlineShader.frag.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\data\shaders\Fireish.frag.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\data\Resources.xml">
+      <Filter>XML</Filter>
+    </None>
+    <None Include="..\data\xml\TestFile.xml">
+      <Filter>XML</Filter>
+    </None>
+    <None Include="..\data\meshes\Meshes.xml">
+      <Filter>XML</Filter>
+    </None>
+    <None Include="..\data\shaders\DiffuseLighting.vertex.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\data\shaders\DiffuseLighting.frag.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\data\shaders\SimpleShaderFlipYTexCoord.frag.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\data\shaders\Simple2DShader.vertex.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\data\shaders\SkinningShader.vertex.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\data\xml\StartupCmds.xml">
+      <Filter>XML</Filter>
+    </None>
+  </ItemGroup>
+</Project>

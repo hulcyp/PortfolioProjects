@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Meshes>
+  <Mesh>01-singlepoly.p3d</Mesh>
+  <Mesh>02-boxes.p3d</Mesh>
+  <Mesh>03-obj.p3d</Mesh>
+  <Mesh>07-scaling-box.p3d</Mesh>
+  <Mesh>08-skinned-tube.p3d</Mesh>
+  <Mesh>09-zax_mesh_with_walk_frwd.p3d</Mesh>
+  <Mesh>10-capstone-char-anim-with-box.p3d</Mesh>
+  <Mesh>29-sibenik.p3d</Mesh>
+  <Mesh>Level_1_Looney_Lava.p3d</Mesh>
+  <Mesh>test_box_6_mtl-2.p3d</Mesh>
+</Meshes>

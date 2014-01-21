@@ -1,0 +1,5 @@
+<ResourceFile name="CobblestoneDiffuse">cobblestonesDiffuse.png</ResourceFile>
+<ResourceFile name="CobblestoneEmissive">cobblestonesEmissive.png</ResourceFile>
+<ResourceFile name="CobblestoneNormal">cobblestonesNormal.png</ResourceFile>
+<ResourceFile name="CobblestoneSpecular">cobblestonesSpecular.png</ResourceFile>
+<ResourceFile name="NoiseTexture4">NoiseTexture4.png</ResourceFile>

@@ -1,0 +1,16 @@
+<ShaderProgram name="simpleShader"                   vertex="simpleShader.vertex.glsl" frag="simpleShader.frag.glsl" />
+<ShaderProgram name="simpleShaderFlipYTexCoord"      vertex="simpleShader.vertex.glsl" frag="SimpleShaderFlipYTexCoord.frag.glsl" />
+<ShaderProgram name="simpleFontShader"               vertex="simpleFont.vertex.glsl"   frag="simpleFont.frag.glsl" />
+<ShaderProgram name="lightingShader"                 vertex="ADS_lighting.vertex.glsl" frag="ADS_lighting.frag.glsl" />
+<ShaderProgram name="fieryFontShader"                vertex="fieryFont.vertex.glsl"    frag="fieryFont.frag.glsl" />
+<ShaderProgram name="DebugShader"                    vertex="DebugShader.vertex.glsl"  frag="DebugShader.frag.glsl" />
+<ShaderProgram name="FBOShader"                      vertex="FBO_Shader.vertex.glsl"   frag="FBO_Shader.frag.glsl" />
+<ShaderProgram name="BlurShader"                     vertex="FBO_Shader.vertex.glsl"   frag="BlurShader.frag.glsl" />
+<ShaderProgram name="GlowMapGenShader"               vertex="FBO_Shader.vertex.glsl"   frag="GlowMapGenShader.frag.glsl" />
+<ShaderProgram name="GlowShader"                     vertex="FBO_Shader.vertex.glsl"   frag="GlowShader.frag.glsl" />
+<ShaderProgram name="FireishShader"                  vertex="FBO_Shader.vertex.glsl"   frag="Fireish.frag.glsl" />
+<ShaderProgram name="OutlineShader"                  vertex="FBO_Shader.vertex.glsl"   frag="OutlineShader.frag.glsl" />
+<ShaderProgram name="DiffuseShader"                  vertex="DiffuseLighting.vertex.glsl"   frag="DiffuseLighting.frag.glsl" />
+<ShaderProgram name="SkinningShader"                 vertex="SkinningShader.vertex.glsl"    frag="DiffuseLighting.frag.glsl" />
+<ShaderProgram name="RTSEntityShader"                vertex="RTSEntityShader.vertex.glsl"   frag="RTSEntityShader.frag.glsl" />
+<ShaderProgram name="RTSMapTileShader"               vertex="RTSMapTileShader.vertex.glsl"  frag="RTSMapTileShader.frag.glsl" />

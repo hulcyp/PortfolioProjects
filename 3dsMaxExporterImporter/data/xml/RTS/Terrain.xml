@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TerrainTypes>
+  <TerrainType name="none" color="#FFFFFF" texCoord="6,0"></TerrainType>
+  <TerrainType name="grass" color="#00FF00" texCoord="0,0"></TerrainType>
+  <TerrainType name="stone" color="#FFFFFF" texCoord="1,0"></TerrainType>
+  <TerrainType name="water" color="#FFFFFF" texCoord="3,0"></TerrainType>
+  <TerrainType name="ice" color="#FFFFFF" texCoord="5,0"></TerrainType>
+  <TerrainType name="shallowWater" color="#FFFFFF" texCoord="7,0"></TerrainType>
+  <TerrainType name="fishFingers"  color="#FFFFFF" texCoord="2,0">
+    <Resource type="fishFingers" amount="10" maxCollectPerTrip="10" timePerResource="0.1" ></Resource>
+  </TerrainType>
+  <TerrainType name="custard"  color="#FFFFFF" texCoord="4,0">
+    <Resource type="custard" amount="10" maxCollectPerTrip="10" timePerResource="0.1" ></Resource>
+  </TerrainType>
+  <TerrainType name="playerStart" color="#FFFFFF" texCoord="5,0"></TerrainType>
+  <TerrainType name="sand" color="#D2B48C" texCoord="0,4" ></TerrainType>
+  <TerrainType name="sandStone" color="#F4A460" texCoord="0,5"></TerrainType>
+</TerrainTypes>
