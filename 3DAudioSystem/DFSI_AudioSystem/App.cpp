@@ -18,7 +18,6 @@ namespace Monky
 		SoundCue::loadSoundCuesFromXMLFile( "sounds/", "SoundCues.xml" );
 		ReverbArea::loadReverbAreasFromXMLFile( "sounds/", "ReverbAreas.xml" );
 		m_soundCue = SoundCue::getSoundCue( "DarkHorses" );
-		//m_soundCue->pushDSP( new MonkyRever5bDSP() ); 
 		m_mapLoader.loadMap();
 		m_soundCue->play();
 	}
@@ -90,8 +89,7 @@ namespace Monky
 	{
 		GameApp::updateSimulation();
 
-		vec3f cameraVel;// = reinterpret_cast< MCCamera* >( m_camera )->getVelocity();
-		AudioSystem::getInstance()->setListenerAttributes( m_camera->getPosition(), cameraVel, m_camera->getDirection(), m_camera->getUpVector() );
+		AudioSystem::getInstance()->setListenerAttributes( m_camera->getPosition(), vec3f(), m_camera->getDirection(), m_camera->getUpVector() );
 		AudioSystem::getInstance()->update();
 		m_currentAngle += m_frameClock.getDeltaSecondsFloat() * 20.0f;
 		SoundCue* drumLoop = SoundCue::getSoundCue( "DarkHorses03" );
@@ -103,7 +101,6 @@ namespace Monky
 	//-------------------------------------------------------
 	void App::updateDisplay()
 	{		
-		//glDisable( GL_CULL_FACE );
 		GameApp::updateDisplay();
 
 		NamedProperties params;
