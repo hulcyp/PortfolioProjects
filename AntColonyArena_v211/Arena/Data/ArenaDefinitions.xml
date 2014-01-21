@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<ArenaDefinitions>
+<!--
+<Arena name="Testing"		startingNutrients="100000" initialWorkers="30" initialScouts="30" initialSoldiers="30" size="80"	rockPercent="10"	dirtPercent="20"	foodPercent="5"	rockClumpSize="5"	dirtClumpSize="20"	turnsPerFoodSpawn="7" />
+
+	 -->
+
+<!-- 
+	<Arena name="Testing"		 size=" 80"	rockPercent="10"	dirtPercent="20"	foodPercent="55"	rockClumpSize="5"	dirtClumpSize="20"	turnsPerFoodSpawn="7" />
+ -->
+
+<!-- 
+-->
+  <Arena name="Median"		size=" 80"	rockPercent="10"	dirtPercent="20"	foodPercent=" 5"	rockClumpSize="5"	dirtClumpSize="20"	turnsPerFoodSpawn="7" />
+  <Arena name="Gigantor"		size="200"	rockPercent="10"	dirtPercent="20"	foodPercent=" 2"	rockClumpSize="5"	dirtClumpSize="20"	turnsPerFoodSpawn="2" />
+  <Arena name="Small Pond"	size=" 40"	rockPercent="25"	dirtPercent="25"	foodPercent="10"	rockClumpSize="1"	dirtClumpSize=" 1"	turnsPerFoodSpawn="15" />
+  <Arena name="Fertile Plain"	size=" 70"	rockPercent=" 0"	dirtPercent=" 0"	foodPercent="12"	rockClumpSize="1"	dirtClumpSize=" 1"	turnsPerFoodSpawn="7" />
+  <Arena name="Barren Rocks"	size="100"	rockPercent="20"	dirtPercent=" 0"	foodPercent=" 0"	rockClumpSize="5"	dirtClumpSize=" 5"	turnsPerFoodSpawn="2" />
+  <Arena name="Dig For Food"	size="120"	rockPercent="10"	dirtPercent="80"	foodPercent=" 7"	rockClumpSize="2"	dirtClumpSize=" 5"	turnsPerFoodSpawn="9999" />
+  <Arena name="Big 'n' Dirty"	size="160"	rockPercent=" 0"	dirtPercent="40"	foodPercent=" 3"	rockClumpSize="5"	dirtClumpSize="40"	turnsPerFoodSpawn="7" />
+  
+</ArenaDefinitions>
