@@ -161,6 +161,4 @@ DefaultProperties
 {
 	baseTeamID = 1
 	flagCapTime = 15
-
-	//SupportedEvents.Add( class'MSSeqEvent_FlagBeingCapped' )
 }
