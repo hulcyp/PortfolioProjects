@@ -17,7 +17,6 @@ var string locationIDs[3];
 function InitGame( string options, out string errorMessage )
 {
 	super.InitGame( options, errorMessage );
-	//UTGame( WorldInfo.Game ).DefaultInventory[0] = class'Mushees.MusheeAssaultRifleWeapon';
 }
 
 event AddDefaultInventory(Pawn P)
@@ -245,11 +244,6 @@ function ScoreFlag( Controller scorer, UTCTFFlag theFlag )
 	}
 }
 
-function newMushee()
-{
-	// TDOD spawn the new flag at the appropriate base
-	//neutralBase[0].newFlag();
-}
 
 function bool TooManyBots( Controller botToRemove )
 {
@@ -263,12 +257,6 @@ function Killed( Controller killer, Controller killedPlayer, Pawn killedPawn, cl
 
 function ScoreKill( Controller killer, Controller other )
 {
-	//local AlienPlayerReplicationInfo playerInfo;
-	if( ( killer != other ) && ( killer != none ) && ( killer.PlayerReplicationInfo != none ) && ( AlienPlayerReplicationInfo( killer.PlayerReplicationInfo ) != none ) )
-	{
-		//playerInfo = AlienPlayerReplicationInfo( killer.PlayerReplicationInfo );
-		// add additional player score stuff for kills
-	}
 	super.ScoreKill( killer, other );
 }
 
@@ -333,7 +321,6 @@ defaultproperties
 	bPlayersVsBots = false;
 	bCustomBots = true;
 	bAutoNumBots = false;
-	//bPlayersBalanceTeams = false;
 
 	GameReplicationInfoClass = class'Mushees.MusheeGameReplicationInfo'
 	PlayerReplicationInfoClass = class'Mushees.AlienPlayerReplicationInfo'
@@ -343,11 +330,8 @@ defaultproperties
 	
 	TeamAIType(0)=class'Mushees.MSCTFTeamAI'
 	TeamAIType(1)=class'Mushees.MSCTFTeamAI'
-	//TeamAIType(0)=class'UTGame.UTCTFTeamAI'
-	//TeamAIType(1)=class'UTGame.UTCTFTeamAI'
 
 	HUDType = class'Mushees.AlienHUDBase'
-	//HUDType = class'UTGame.UTCTFHUD'
 	bUseClassicHUD = true;
 
 	locationIDs(0) = "red"
@@ -362,7 +346,5 @@ defaultproperties
 	DefaultInventory(2)=None;
 
 	DefaultWeaponArchetypes(0) = MusheeAssaultRifleWeapon'MS_Weapons.Archetype.MusheeAssaultRifle';
-	//DefaultWeaponArchetypes(1) = MusheeShotgunWeapon'MS_Weapons.Archetype.MusheeShotgun';
-	//DefaultWeaponArchetypes(2) = MusheeSniperRifleWeapon'MS_Weapons.Archetype.MusheeSniper';
 	
 }
