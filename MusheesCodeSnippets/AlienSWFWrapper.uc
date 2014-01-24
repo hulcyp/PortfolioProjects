@@ -11,8 +11,6 @@ struct FlagIcon
 	var bool isRunning;
 };
 
-//var float lastHealth;
-//var int lastAmmoCount;
 var int currentWeaponEquipped;
 var float messageCoolDown;
 
@@ -470,8 +468,6 @@ DefaultProperties
 
 	bDisplayWithHudOff = false
 	MovieInfo = SwfMovie'MS_HUD_RedTeam.MS_HUDRedTeam'
-	//blueMovieInfo = SwfMovie'MS_HUD_BlueTeam.MS_HUDBlueTeam'
-	//redMovieInfo = SwfMovie'MS_HUD_RedTeam.MS_HUDRedTeam'
 
 	blue=( R=0, G=0.6f, B=1.0f )
 	red=( R=1.0f, G=0, B=0 )
