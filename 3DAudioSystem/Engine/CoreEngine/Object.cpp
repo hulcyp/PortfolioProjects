@@ -17,8 +17,11 @@ namespace Monky
 			NamedProperties params;
 			params.set( "name", m_occlusionGeometryName );
 			params.set( "mesh", m_mesh );
-			params.set( "directOcclusion", mat->getDirectOcclusion() );
-			params.set( "reverbOcclusion", mat->getReverbOcclusion() );
+			if( mat != nullptr )
+			{
+				params.set( "directOcclusion", mat->getDirectOcclusion() );
+				params.set( "reverbOcclusion", mat->getReverbOcclusion() );
+			}
 			fireEvent( "createASGeometry", params );
 		}
 	}
