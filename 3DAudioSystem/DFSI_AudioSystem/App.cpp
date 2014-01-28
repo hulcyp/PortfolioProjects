@@ -93,9 +93,12 @@ namespace Monky
 		AudioSystem::getInstance()->update();
 		m_currentAngle += m_frameClock.getDeltaSecondsFloat() * 20.0f;
 		SoundCue* drumLoop = SoundCue::getSoundCue( "DarkHorses03" );
-		mat3f rotation( mat3f::IDENTITY );
-		rotation.rotate( 0.0f, m_currentAngle, 0.0f );
-		drumLoop ->set3DConeOrientation(  rotation );
+		if( drumLoop != nullptr )
+		{
+			mat3f rotation( mat3f::IDENTITY );
+			rotation.rotate( 0.0f, m_currentAngle, 0.0f );
+			drumLoop ->set3DConeOrientation(  rotation );
+		}
 
 	}
 	//-------------------------------------------------------
